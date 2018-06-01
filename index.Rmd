@@ -6,6 +6,7 @@ output:
   html_document:
     toc: true
     number_sections: true
+    theme: journal
 ---
 
 ```{r setup, include=FALSE}
@@ -31,7 +32,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 2. The Commissioner does not have unilateral authority to add an owner to the league should a team become unowned by any action. Regulations for this situation are covered in 2.2.
 
-###  League Violations and Penalties
+### League Violations and Penalties
 
 1. The Commissioner has the authority to set penalties for any and all rule violations outlined within the statutes of the Constitution. Any penalty set forth by the Commissioner shall and will be subject to the 3 day review period outlined in [1.1.1.3](#league-action-and-veto-power).
 
@@ -40,3 +41,7 @@ knitr::opts_chunk$set(echo = TRUE)
 3. Any and all penalties set by the Commissioner shall and will be for the good of the league and will be in line with the spirit and the intent of the league.
 
 4. Should the Commissioner be found in violation of the rules and regulations of the Constitution or otherwise, penalties shall and will be agreed upon and enforced with a simple majority of 6 votes (out of 11). The Commissioner will have no veto authority in this situation.
+
+### Roster Adjustment
+
+1. The Commissioner has the authority to make adjustments to any and all team rosters only under the occasions outlined within the Constitution.
