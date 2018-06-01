@@ -1,0 +1,42 @@
+---
+title: "Flayer Haters Constitution"
+author: "Gregory Dupuis with contributions from Michael Treadwell"
+date: "June 1, 2018"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# League Governance and Authorities
+## Authority of the Commissioner
+### League Action and Veto Powers {#league-action-and-veto-power}
+
+1. The Fantasy League Commissioner, hereinafter referred to as the Commissioner, will have unilateral authority to make decisions concerning the management and operations of the Flayer Haters Fantasy Football League, hereinafter referred to as the league, with the exception of those statutes outlined in the Flayer Haters Fantasy Football League Constitution, hereinafter referred to as the Constitution. In the event that a dispute or circumstance arises in which action is required and is not strictly outlined within the Constitution the Commissioner shall and will resolve the matter.
+
+2. The Commissioner will also have veto power over any action taken by league members that violates any rule or regulation outlined in the statutes of this Constitution.
+
+3. Any and all actions taken by the Commissioner regarding issues not outlined by the Constitution will be effective immediately; however the action will be subjected to a 3 day review period by the league members. During the review period the league members will have an opportunity to override the decision with a 2/3 (7 member) vote (excluding the Commissioner).
+    a. Should a decision by the Commissioner be overridden, the resulting action shall and will be considered final.  
+  
+4. Any and all actions taken by the Commissioner regarding issues not outlined by the Constitution will be effective immediately; however the action will be subjected to a 3 day review period by the league members. During the review period the league members will have an opportunity to override the decision with a 2/3 (7 member) vote (excluding the Commissioner).
+
+###  League Owner Dismissal and Addition
+
+1. The Commissioner has the authority to dismiss an owner from the league at any time should a situation arise. This action will be subject to the 3 day review period regulations outlined in [1.1.1.3](#league-action-and-veto-power)
+
+2. The Commissioner does not have unilateral authority to add an owner to the league should a team become unowned by any action. Regulations for this situation are covered in 2.2.
+
+###  League Violations and Penalties
+
+1. The Commissioner has the authority to set penalties for any and all rule violations outlined within the statutes of the Constitution. Any penalty set forth by the Commissioner shall and will be subject to the 3 day review period outlined in [1.1.1.3](#league-action-and-veto-power).
+
+2. The Commissioner may set penalties for instances not strictly outlined in the Constitution, subject to [1.1.1.3](#league-action-and-veto-power).
+
+3. Any and all penalties set by the Commissioner shall and will be for the good of the league and will be in line with the spirit and the intent of the league.
+
+4. Should the Commissioner be found in violation of the rules and regulations of the Constitution or otherwise, penalties shall and will be agreed upon and enforced with a simple majority of 6 votes (out of 11). The Commissioner will have no veto authority in this situation.
