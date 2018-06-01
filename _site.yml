@@ -1,9 +1,2 @@
 name: "Spooky League Fantasy Football Constitution"
-navbar:
-  title: "Navigation"
-  left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
 output_dir: "."
