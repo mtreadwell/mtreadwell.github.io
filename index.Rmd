@@ -89,3 +89,121 @@ will be governed by the rules outlined in [1.2.2.4](#amendments-to-the-constitut
 
 1. The maximum number of teams eligible to be owned in the league is 12. The minimum number of teams eligible to be owned in the league is 12.
 
+### League Dues and Assessed Fees
+
+1. The league dues are set at $50 per team.
+
+2. The league does not assess a fee for transactions of any kind, therefore a team owner will not be required to pay more than the $50 for league dues each year to continue owning their respective team.
+
+3. Payment of league dues by each member is required by the start of each fantasy season. A penalty will be imposed on a team owner for not paying his or her league dues by this date.
+	a. The assessed penalty for late payment is as follows:
+		+ Before Week 1 – no penalty
+		+ After Week 1 – a loss of 1 point for the negligent fantasy team in that week’s headto-head matchup.
+		+ After Week 2 – a loss of 2 points for the negligent fantasy team in that week’s headto-head matchup.
+		+ After Week 3 – a loss of 4 points for the negligent fantasy team in that week’s headto-head matchup.
+		+ After Week 4 – a loss of 8 points for the negligent fantasy team in that week’s headto-head matchup.
+		+ After Week 5 – a loss of 16 points for the negligent fantasy team in that week’s headto-head matchup.
+		+ After Week 6 – dismissal from the league, only overturned by a unanimous vote of all owners.
+
+	b. Any league member may volunteer to pay another owners league dues at any time, however he or she will take on that debt outside of the parameters of the league rules and regulations and collection of that debt will not be considered an issue pertinent to the operation of the league.
+	c. A dismissal from the league does not require a refund of league dues. This can only be done at the discretion of the Commissioner and subject to [1.1.1.3](#league-action-and-veto-power).
+
+4. The Commissioner may assess a one-time fee on any member as a result of a rule violation. The terms of the fee and payment will be decided by the Commissioner and will be subject to [1.1.1.3](#league-action-and-veto-power).
+
+5. The Commissioner or any other member of the league may suggest the assessment of a onetime fee for the purposes of the improvement or the betterment of the league. These suggestions will be taken under review by the league and can only be passed by a unanimous vote. The intent of such a fee will be to increase the level of enjoyment, i.e. the purchase of a trophy for the league winner/loser, food or drinks for an event, or other discretionary expenses.
+
+## Exiting Owners and New Owners {#exiting-owners-new-owners}
+
+### Mid-Season Transfers {#mid-season-transfers}
+
+1. In the event that an owner leaves the league for any reason during a fantasy season, the vacated ownership slot will immediately become available to a new owner and league member.
+
+2. The Commissioner must act in good faith with the league to find a new team owner as soon as possible in an effort to make a smooth transition and not disrupt the operations of the league.
+
+3. A new owner will be proposed to the league by the Commissioner and all members of the league must vote to accept or deny the proposal.
+
+4. A 2/3 vote by the league members is needed to accept a new ownership proposal. Should the proposal be accepted, the new member will assume responsibility for the team immediately. Should the proposal be denied, the team will remain without an owner and the search for a new league member will continue.
+
+5. The Commissioner will be responsible for managing and maintaining any vacated team until such a time as a new permanent owner can be presented and accepted per [2.2.1.2-4](#mid-season-transfers). In this situation the Commissioner will be held to all rules and regulations regarding team management and maintenance, however on matters of voting he will not be granted additional voting rights for the vacated team.
+	a. Example: A team becomes vacated during the season and the Commissioner assumes operation of that team. Before a new owner can be found a situation arises that would require the voting of all team owners. The Commissioner is not allowed two separate votes based on the fact that he manages two teams. He or she will retain all original voting powers given to the Commissioner but no additional votes at any time, for any reason.
+
+6. Any and all situations calling for a vote by the full league, be it a simple majority, a 2/3 vote, etc., during the period before a new owner has been chosen will be calculated using the total number of current owners, not the total number of teams in the league.
+	a. Example: With the departure of 1 team owner from the league, majority and 2/3 will be calculated using 11 as the base number of votes. If there are 2 simultaneously vacated teams the base number of votes is reduced to 10, and so on and so forth.
+
+7. A new owner will accept the team in the condition that it was vacated in, including any additions and/or deletions made by the Commissioner in the interim period. However, once a new owner has been approved by the league, he or she has the right to make changes to their team, subject to the rules and regulations in the Constitution.
+
+8. The league dues assessed to a new owner will be calculated using the percentage of the remainder of the fantasy season once control of the team has been granted. This payment will be due in full by the end of the fantasy season.
+
+9. New team owner dues may be distributed to the previous team owner as a refund at the discretion of the Commissioner. In the event that the previous team owner cannot be reached or that the Commissioner decides not to reimburse the previous owner, the money will be deposited in to a discretionary fund for the league’s use.
+
+10. Should a team become vacated and a new owner is not presented and approved before the end of the fantasy season, the Commissioner will retain management and maintenance responsibilities into the off-season until a new owner can be brought in to the league. Procedures and rules for off-season new member transfers are outlined in the following section. Any winnings granted to a team without an owner will be transferred to a
+discretionary fund for the league.
+
+11. The Commissioner may be removed as the interim team manager if he is found to be in violation of the Constitution by a unanimous vote of the remaining league members. In this situation the league will then be required to vote by a 2/3 majority for another current team owner to serve as the interim manager of the vacated team until a new team owner can be presented and approved.
+
+### Off-Season Transfers
+
+1. The rules and regulations outlined in the previous section will apply to off-season team ownership transfers as well, with the exception of the omission of subsections g through k. Because of the timing of an off-season ownership transfer, there are several procedural differences that are not addressed in the previous section.
+
+2. If a new owner is approved prior to the Keeper Deadline set out in [7.1.2](#keeper-deadline) and no Keepers have yet to be chosen for the vacated team, a new team owner will accept the team in the condition that it was vacated in, including any additions and/or deletions made by the Commissioner in the interim period.
+
+3. If a new owner is approved after the Keeper Deadline or if Keepers have been chosen before the team is vacated, that team will revert back to its status immediately following the end of the fantasy season, effectively making any and all Keeper decisions for the following fantasy season null and void. The new owner will have the option of making Keeper selections at the time of the transfer, even if the Keeper Deadline under [7.1.2](#keeper-deadline) has passed.
+	  a. A new team owner may choose not to select any Keepers and begin the following fantasy season with all available player slots empty. Owners will otherwise be bound to the statutes outlined in the Constitution.
+	  b. Should a team remain vacated by the date of the Keeper Deadline, the Commissioner, acting as the temporary team manager, will not make any Keeper selections for that team in anticipation of a new owner being selected by the league.
+	  c. The Commissioner will also be prohibited from agreeing to any trades during this time frame involving Keepers and draft picks while acting as the temporary team manager.
+	  
+# Team Structure and Scoring Rules
+
+## Roster Construction
+
+### Player Position Slots
+
+1. A complete starting lineup for any and all teams will consist of 9 scoring players (Team
+Defense will be considered a scoring player)
+
+2. All teams will consist of the following player positions (and number of available starting slots): Running Back (2); Quarterback (1); Wide Receiver (2); Tight End (1); Kicker (1); and Team Defense (1).
+
+3. All teams will be provided one additional slot that is flexible to one of the following three positions: Running Back; Wide Receiver; and Tight End.
+
+4. All teams will be provided a maximum of 6 bench slots that may filled using any combination of available players from any category.
+    a. It is worth noting that certain host sites employ a maximum number of player position types that a team may possess.
+    
+### Injured Reserve Slot
+
+1. All teams will be provided with an Injured Reserve (IR) slot.
+
+2. An owner may move any injured player from his or her starting lineup or bench into the IR slot in order to create more available space while still maintaining ownership of the injured player.
+
+3. IR-eligible players can only be moved to the IR slot from an owner’s active roster or bench. Available players cannot be added directly to an owner’s IR slot from free agency, as the owner must first add the player to an open bench slot.
+
+4. A player will be eligible for the IR slot based on the NFL's official disabled list of active and inactive players.
+
+5. Once a player has been moved into the IR slot, that player may reside there indefinitely so long as that player remains officially disabled and therefor unable to play.
+
+6. If a player is placed into the IR slot and has remained there through the end of the fantasy season, that player may be chosen as a Keeper subject to the statutes outlined in [Article 7 (Keepers)](#keepers).
+
+## Scoring
+
+### Scoring Breakdown
+
+1. A breakdown of scoring by player position is below:
+    + Quarterback (QB) = 1 point for every 25 yards, or 0.04 points per yard
+    + Running Back (RB) = 1 point for every 10 yards, or 0.1 points per yard
+    + Wide Receiver (WR) = 1 point for every 10 yards, or 0.1 points per yard
+    + Tight End (TE) = 1 point for every 10 yards, or 0.1 points per yard
+    + Kicker (K) = 1 point for every Point After Touchdown (PAT); 3 points for every successful field goal between 0 and 39 yards; 4 points for every successful field goal between 40 and 49 yards; 5 points for every successful field goal 50 yards or more; -2 points for any and all unsuccessful field goal attempts.
+    + Team Defense (DEF) = 1 point per sack; 2 points per interception; 2 points per recovered fumble; 2 points for every blocked punt, PAT, or field goal; 2 points for every safety; 6 points for every blocked punt or field goal returned for a touchdown; 6 points for every punt returned for a touchdown; 6 points for every kickoff returned for a touchdown; 6 points for every fumble returned for a touchdown; and 6 points for every interception returned for a touchdown.
+
+2. The DEF position will begin each game with a total of 15 points. This consists of 10 points for 0 yards allowed and 5 points for 0 points allowed. As more yards are allowed and/or points are scored against that particular DEF, there will be a subsequent reduction in fantasy points.
+
+3. All players, excluding DEF, will be subject to a 2 point reduction for every interception thrown or fumble lost.
+
+### Other Rules and Regulations
+
+1. All points scored by active players are based on fractional scoring. As an example, if a player receives 1 point for every 10 yards of rushing, each yard gained is worth 0.1 points and will be represented in the team’s overall score. This applies to all player types.
+
+2. Points earned for passing, rushing, and receiving are not restricted to a particular player position, excluding DEF. However, all point values for any scoring action will remain unaffected by player position.
+
+3. The league is a Point Per Reception (PPR) league. All player positions excluding DEF will score an additional point for every reception made.
+
+4. All successful 2 point conversion plays will result in 2 points for all player positions excluding DEF.
