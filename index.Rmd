@@ -141,7 +141,7 @@ discretionary fund for the league.
 
 11. The Commissioner may be removed as the interim team manager if he is found to be in violation of the Constitution by a unanimous vote of the remaining league members. In this situation the league will then be required to vote by a 2/3 majority for another current team owner to serve as the interim manager of the vacated team until a new team owner can be presented and approved.
 
-### Off-Season Transfers
+### Off-Season Transfers {#off-season-transfers}
 
 1. The rules and regulations outlined in the previous section will apply to off-season team ownership transfers as well, with the exception of the omission of subsections g through k. Because of the timing of an off-season ownership transfer, there are several procedural differences that are not addressed in the previous section.
 
@@ -154,7 +154,7 @@ discretionary fund for the league.
 	  
 # Team Structure and Scoring Rules
 
-## Roster Construction
+## Roster Construction {#roster-construction}
 
 ### Player Position Slots
 
@@ -182,7 +182,7 @@ Defense will be considered a scoring player)
 
 6. If a player is placed into the IR slot and has remained there through the end of the fantasy season, that player may be chosen as a Keeper subject to the statutes outlined in [Article 7 (Keepers)](#keepers).
 
-## Scoring
+## Scoring {#scoring}
 
 ### Scoring Breakdown
 
@@ -220,7 +220,7 @@ Defense will be considered a scoring player)
 
 1. For rounds 1 and 2, each owner will have exactly 2 minutes to make their selection. For all proceeding rounds the clock will be set at 1 minute for each team owner.
 
-2. Should the clock run down to zero without a selection being made, the Commissioner may impose a penalty on that team owner per [1.1.3](#league-violations-and-penalties)
+2. Should the clock run down to zero without a selection being made, the Commissioner may impose a penalty on that team owner per [1.1.3](#league-violations-and-penalties).
 
 ### Absent/Late Team Owners
 
@@ -261,7 +261,7 @@ arrangements for the management of his or her draft.
 
 5. Once all draft order events and/or tasks have been used on the master list all options will become available again for use in subsequent years.
 
-### Trading of Keepers for Draft Picks
+### Trading of Keepers for Draft Picks {#trading-of-keepers-for-draft-picks}
 
 1. General rules and regulations regarding trading will be discussed in [Article 6 (Trades)](#player-trades). This section strictly refers to the trading of a Keeper(s) for a draft pick(s).
 
@@ -286,6 +286,230 @@ draft.
 
 3. Trading as outlined in [Article 6](#player-trades) will be not be restricted in any way, including during the Post Draft Period.
 
-4. Starting on Tuesday of the first week of the fantasy football season, the Post Draft Period will have ended, and all waiver acquisitions will be allowed and will follow the statutes outlined in [Article 5](#waiver-wire-acquisitions).
+4. Starting on Tuesday of the first week of the fantasy football season, the Post-Draft Period will have ended, and all waiver acquisitions will be allowed and will follow the statutes outlined in [Article 5](#waiver-wire-acquisitions).
 
 5. Once the Post Draft Period has concluded all regular season rules and regulations will become applicable and binding.
+
+# Waiver Wire Acquisitions {#waiver-wire-acquisitions}
+
+### Definition of Waivers {#definition-of-waivers}
+
+1. Waivers is the time period by which a player must wait before becoming a free agent. Any player placed on waivers cannot be added by a team owner until that player’s waiver period is concluded and he becomes a free agent.
+
+2. All players not drafted by any team in the league following the draft will be immediately placed on waivers.
+    a. No player will be considered a free agent until the conclusion of the Post-Draft Period.
+
+3. For the duration of the fantasy football season, any and all unowned players each week will also be placed on waivers at the start of their individual game times in that particular week and will remain on waivers until the waiver period ends in the following week.
+
+4. Any and all players dropped by a team owner will also be immediately placed on waivers until 3 a.m. the following morning.
+
+### Process and Regulations
+
+1. Excluding the first week of the fantasy football season all waiver wire claims for players from the prior week’s games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
+    a. Because of the one-day waiver period for all dropped players, any and all players dropped from a team by an owner the day of said player’s individual NFL game will remain on waivers until the following week’s initial waiver period has concluded.
+
+2. Beginning in Week 1 of the fantasy football season, any owner may place a claim on any player on the waiver wire.
+
+3. Acquisition requests by owners for players on waivers will processed based on their respective waiver wire priorities each week.
+    a. If a player on waivers has claims from more than one team owner, the owner with the higher priority that week will acquire the player.
+    b. At the end of the initial waiver period each week, once a team owner’s waiver claim has been processed their priority is moved to the end of the order and the next priority claim is processed.
+	  c. All players unclaimed after their respective waiver periods end will become free agents and can be added by any team owner on a first-come, first-served basis.
+	  
+### Determining Waiver Wire Priority
+
+1. Week 1 Priority Order
+    a. At the conclusion of the Post Draft Period owners will be able to make acquisitions from the waiver wire for their individual teams prior to the start of the Week 1 fantasy football games.
+    b. The priority order for Week 1 is determined using the inverse of the draft order for that year.
+
+2. Regular Season Priority Order
+    a. Following the first week of the fantasy football season, waiver priorities will be determined by the inverse order of the league standings each week. This order will be reset each week during the season to reflect any and all changes in standings.
+    
+# Player Trades {#player-trades}
+
+### Trading Periods and Deadlines
+
+1. Immediately following the draft each year any team owner may propose a trade to any other team owner.
+
+2. Any and all trades must be completed by the date of the Trade Deadline which will be set each year by the Commissioner.
+
+3. Following the Trade Deadline, no team owner will be allowed to make a trade with another owner until the next Keeper Deadline outlined in [7.1.2](#keeper-deadline).
+    a. After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by [2.2.2.3](#off-season-transfers). for the Commissioner as acting manager of a vacated team.
+
+### Procedures and Rules
+
+1. Any and all players owned by any team may be offered in a trade. This includes injured or suspended players in addition to active players.
+
+2. A trade between two team owners may involve an odd number of players, i.e. 1 player for 2 players, or 3 players for 2 players.
+    a. Trades involving an uneven number of players must be in line with the roster limitations set out in [3.1](#roster-construction).
+    b. For example: If a team owner is trading one player to another team and receiving two players in return, that owner must have room for that additional player on his or her roster while not violating the maximum number of players allowed on a team.
+
+3. After a trade has been proposed, the owner being offered the trade will have a period of several days to accept or decline the trade offer.
+
+4. Once a trade proposal has been accepted, there will be an immediate 24 hour review period where the remaining owners in the league may vote by simple majority to veto the trade.
+    a. Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 6 out of 10 in favor of the veto.
+    b. If the trade has not been vetoed in the 24 hours provided for review, the trade will stand. This is subject only to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to [1.1.1.3](#league-action-and-veto-power).
+
+5. In the event that a trade proposal is accepted and an immediate approval is need to bypass the 24 hour review period, one or both team owners may petition the remaining owners to vote to approve the trade.
+    a. The number of votes needed to approve a trade in this manner would be 5 out of 10 in favor of the trade. In the event of a vacated team, the vote needed would remain 5 out of 9, 4 out of 8, 4 out of 7, and so on.
+
+6. Trades between Keepers and draft picks are discussed in [4.2.2](#trading-of-keepers-for-draft-picks).
+
+# Keepers {#keepers}
+
+## General Rules and Regulations
+
+### Definition of a Keeper
+
+1. After the conclusion of every fantasy football season each owner will choose at a minimum 1 and a maximum of 3 players from his or her team to keep for the following fantasy football season.
+    a. Trading one or more of a team's Keepers during the offseason to another team owner for draft picks in the following league draft is permitted, however a team must at all times maintain ownership of at the least 1 Keeper until the conclusion of that draft.
+    b. A team will never be allowed to roster more than 3 Keepers prior to that year's league draft.
+
+2. Once the draft has been completed any and all Keepers may be traded to another owner, dropped from their current team, or added to the team through normal trading procedures outlined in [Article 6](#player-trades).
+    a. All players drafted are considered draft picks, not keepers, at the conclusion of the draft. The minimum and maximum limitations will not apply until the following Keeper Deadline when the team owner must choose Keepers for the next year.
+
+### Keeper Deadline
+
+1. Keeper selections for all teams must be made by 11:59 p.m. on July 4 of every year.
+
+2. An owner may submit their Keeper selections to the Commissioner either through the host website or in writing at any time prior to the end of the day on July 4 of each year.
+
+3. If an owner does not submit a list of a minimum of 1 and a maximum of 3 Keepers to the Commissioner by the Keeper Deadline, the Commissioner will penalize that team owner accordingly.
+
+4. For rules and regulations concerning vacated teams at the point of the Keeper Deadline, please refer to [2.2.2.3](#off-season-transfers).
+
+### Trading Keepers
+
+1. See [4.2.2](#trading-of-keepers-for-draft-picks)
+
+### Eligibility
+
+1. A player is eligible to be kept for the next fantasy football season by a team owner if that player satisfies one of the following conditions:
+    + The player has been ruled by the NFL as active and eligible to play for at least one week while a member of the owner's team, either in the starting roster or the bench, hereinafter referred to as the Active Player Rule.
+    + The player was originally drafted by the current owner and has remained on his or her team for the entirety of the season, either on the starting roster, the bench, or in the IR slot. This is the one and only exception to the Active Player Rule.
+
+2. If an owner drafts a suspended or injured player, and then drops that player without the player ever being ruled by the NFL as active and eligible to play, and if that owner then subsequently acquires that player from free agency at any time, the player must now abide by the Active Player Rule for that team in order to be kept. The exception to the Active Player Rule will have no meaning here because the player was temporarily dismissed from the owner's team.
+
+3. Any player drafted in the 1st Round or valued as a 1st Round draft pick, i.e. a Keeper from the previous season, will not be allowed to be kept by any team under any circumstance for the following season.
+
+## Draft Implications
+
+### Draft Value for Keepers {#draft-value-for-keepers}
+
+1. Any player selected by an owner as a Keeper for the following year will represent one draft pick in that year's upcoming draft for that owner.
+
+2. The draft value of that player is determined by several factors:
+    + If the proposed Keeper has been owned by the team for the entirety of the season, the draft value of that player will be one round higher than that of the previous year. 
+    + If the proposed Keeper was acquired through a trade of any kind with another owner during the season and satisfies the Active Player Rule, the draft value of that player will be one round higher than that of the previous year, excepting those players under the Revalued Player Rule discussed in [7.2.2](#the-revalued-player-rule) below.
+    + If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 13th Round pick.
+
+3. If a team owner decides to keep 2 or more players with the same draft value for that year's upcoming draft, the owner will designate one of the players to retain that value. Each of the other players will then be valued 1 consecutive round higher.
+
+4. No team owner will be allowed to keep 2 or more players with 1st Round values for that year's upcoming draft.
+
+### The Revalued Player Rule {#the-revalued-player-rule}
+
+1. All players remaining undrafted at the conclusion of the draft will be considered free agents and are eligible to be added to any team by the rules and regulations outlined in [Article 5 (Waiver Wire Acquisitions)](#waiver-wire-acquisitions).
+
+2. Any player chosen from free agency following the draft will constitute a 13th Round draft value if kept for the next fantasy season as outlined in [7.2.1.2](#draft-value-for-keepers).
+
+3. Players that have been drafted to a team and then subsequently dropped from that team become free agents per the rules outlined in [5.0.1.4](#definition-of-waivers).
+
+4. The Revalued Player Rule states that any player drafted in rounds 2 through 15 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 13th Round as outlined in [7.2.1.2](#draft-value-for-keepers), so long as that player remains a free agent for more than 2 weeks.
+    a. If the player is added to a team by an owner through free agency and that player has not remained in free agency for more than 2 weeks, the player will retain the draft value he had before being cut from the former team.
+        + Example 1: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.
+        + Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 3: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 14th Round draft value.
+        + Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+    b. The only exception to the Revalued Player Rule is as follows: If an owner drops a drafted player from his or her team and then chooses to re-add that same player, and no other owner has added that player in the interim, that player must remain a free agent for more than 3 weeks, not 2 under the normal rule, to have his draft value reduced to 13th Round for the original owner.
+        + Example 5: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 2 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.
+        + Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        
+# Regular Season
+
+### General
+
+1. The schedule for each fantasy season is chosen at random by the host site. Once the schedule has been set, there can be no adjustments or changes to any head-to-head matchups in the regular season.
+
+2. The regular season will be 13 weeks long, beginning with the first week of the NFL regular season and will last through Week 13.
+
+3. All teams will be placed in the same Division, and the overall top 6 teams at the end of the regular fantasy season will compete in the fantasy playoffs for the championship.
+
+### Head-to-Head Matchups {#head-to-head-matchups}
+1. Each team will compete in a head-to-head matchup each week of the regular fantasy season.
+
+2. The winner of each matchup will be determined by the total points scored from each player a team's starting lineup.
+
+3. For a list of scoring rules, see [3.2](#scoring).
+
+4. Should the two teams end in a tie at the end of the final game that week, the total points scored by all bench players for each team will be used to break the tie.
+    a. If a player currently in the owner's IR slot becomes activated and scores any points that week, those points will not be included in the total bench points for that team.
+
+5. If both teams remain tied after adding in their total bench points, both teams will receive a tie for that week.
+
+### Overall Rankings {#overall-rankings}
+
+1. Overall rankings will be determined in the following order: the win/loss/tie records of each team; each team's head-to-head record; total points scored; and total points against.
+
+2. Overall rankings will be used to determine playoff teams and their respective rankings at the end of the regular fantasy season. If all other tie-breakers have been exhausted and a tie still remains, the Commissioner will tally all bench points for, and then finally all bench points against to determine the final overall rankings.
+    a. If a tie still remains the Commissioner will assign a challenge or event outside of the scope of fantasy football to determine the final rankings. This decision will be final and not subject to the statutes in [1.1.1.3](#league-action-and-veto-power).
+
+### Maintaining an Active Roster
+
+1. All owners will be expected to maintain an active roster at all times during the fantasy football season, including the playoffs, to the best of their ability.
+
+2. An active roster is defined by a full starting lineup each week of active and eligible players.
+
+3. If a team owner does not maintain an active roster for more than 3 weeks, he or she will be subject to penalization by the Commissioner outlined in [1.1.3](#league-violations-and-penalties).
+
+4. There are some situations that may warrant violating this rule which is why a 3 week inactive roster period is allowed:
+    + An owner might have all of one player type on a bye and, rather than dropping a desired player from his or her team, will simply not start a player at that position.
+    + An owner may have a player become injured prior to the start of that particular game and might not have time to insert a new player.
+    + An owner might be incapable of logging in to the host site to make lineup changes prior to the start of a scheduled game.
+
+5. In the event of a vacated team, the Commissioner will assume responsibility of that team until a new owner can be approved per [2.2.1](#mid-season-transfers) and will be subject to the same rules in this section for that team as well as his or her own team.
+
+# Playoffs and Payouts
+
+### Champion's Bracket Schedule
+
+1. The Fantasy Football Playoffs, hereinafter referred to as the playoffs, will consist of 3 rounds and 6 teams.
+
+2. The 2 highest ranked teams will receive a bye for the first week of the playoffs.
+
+3. Week 1 of the playoffs will consist of the 3rd ranked team verses the 6th ranked team and the 4th ranked team verses the 5th ranked team.
+
+4. Week 2 of the playoffs will consist of the 1st ranked team verses the Week 1 winner between the 3rd and 6th ranked teams and the 2nd ranked team verses the Week 1 winner between the 4th and 5th ranked teams.
+
+5. Week 3 will be the championship game between the 2 winners of Week 2.
+
+### Loser's Bracket Schedule
+
+1. The 4 lowest ranked teams in the league will compete in a 2 week playoff for last place in the league.
+
+2. Week 1 of the loser's bracket playoffs will consist of the 12th ranked team verses the 9th ranked team and the 11th ranked team verses the 10th ranked team.
+
+3. Week 2 will consist of the 2 losing teams in Week 1 of the loser's bracket playoffs and will decide the last ranked team for that fantasy season.
+
+### Scoring and Tie-Breakers
+
+1. The playoffs will follow the same rules for determining a winner as outlined in [8.0.2.1-4](#head-to-head-matchups) and [8.0.3.2](#overall-rankings).
+
+### Payouts
+
+1. The winner of the fantasy football season will receive $500.
+
+2. The second place team will receive $100.
+
+3. The last place team will be subject to a penalty decided on by the league. The terms and conditions of this penalty will be discussed and voted on for approval by a 2/3 vote of the entire league prior to the Keeper Deadline of July 4 of each year.
+    a. Enforcement of this penalty will be at the discretion of the Commissioner and the members of the league, and the rules for enforcement will not be addressed in the Constitution.
+    
+# Other Rules and Regulations
+
+### Player Lock-Ins
+
+1. A player will be locked in to his fantasy roster position at the start of that player's individual NFL game each week and will not be allowed to be moved from that position in the team's roster until 3 a.m. following the final NFL game that week.
+    a. In the event that a team owner cannot make a roster change in a timely manner, he or she may contact the Commissioner to make any allowable adjustments for that team.
+    b. The Commissioner will decide if the request is valid.
+    c. If the Commissioner cannot be reached or is unable in any way to make the requested roster adjustments on behalf of the team owner, the owner must send any and all requested roster changes to all members in a text message.
+    d. Any roster adjustment requests made in the above manner will still be subject to the Player Lock-In rule. The requesting owner must show proof of the time of the request for the adjustments to be valid.
+    
