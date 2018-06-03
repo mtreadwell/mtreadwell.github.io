@@ -97,13 +97,13 @@ will be governed by the rules outlined in [1.2.2.4](#amendments-to-the-constitut
 
 3. Payment of league dues by each member is required by the start of each fantasy season. A penalty will be imposed on a team owner for not paying his or her league dues by this date.
 	a. The assessed penalty for late payment is as follows:
-		+ Before Week 1 – no penalty
-		+ After Week 1 – a loss of 1 point for the negligent fantasy team in that week’s headto-head matchup.
-		+ After Week 2 – a loss of 2 points for the negligent fantasy team in that week’s headto-head matchup.
-		+ After Week 3 – a loss of 4 points for the negligent fantasy team in that week’s headto-head matchup.
-		+ After Week 4 – a loss of 8 points for the negligent fantasy team in that week’s headto-head matchup.
-		+ After Week 5 – a loss of 16 points for the negligent fantasy team in that week’s headto-head matchup.
-		+ After Week 6 – dismissal from the league, only overturned by a unanimous vote of all owners.
+		+ Before Week 1 - no penalty
+		+ After Week 1 - a loss of 1 point for the negligent fantasy team in that week's head-to-head matchup.
+		+ After Week 2 - a loss of 2 points for the negligent fantasy team in that week's head-to-head matchup.
+		+ After Week 3 - a loss of 4 points for the negligent fantasy team in that week's head-to-head matchup.
+		+ After Week 4 - a loss of 8 points for the negligent fantasy team in that week's head-to-head matchup.
+		+ After Week 5 - a loss of 16 points for the negligent fantasy team in that week's head-to-head matchup.
+		+ After Week 6 - dismissal from the league, only overturned by a unanimous vote of all owners.
 
 	b. Any league member may volunteer to pay another owners league dues at any time, however he or she will take on that debt outside of the parameters of the league rules and regulations and collection of that debt will not be considered an issue pertinent to the operation of the league.
 	c. A dismissal from the league does not require a refund of league dues. This can only be done at the discretion of the Commissioner and subject to [1.1.1.3](#league-action-and-veto-power).
@@ -134,7 +134,7 @@ will be governed by the rules outlined in [1.2.2.4](#amendments-to-the-constitut
 
 8. The league dues assessed to a new owner will be calculated using the percentage of the remainder of the fantasy season once control of the team has been granted. This payment will be due in full by the end of the fantasy season.
 
-9. New team owner dues may be distributed to the previous team owner as a refund at the discretion of the Commissioner. In the event that the previous team owner cannot be reached or that the Commissioner decides not to reimburse the previous owner, the money will be deposited in to a discretionary fund for the league’s use.
+9. New team owner dues may be distributed to the previous team owner as a refund at the discretion of the Commissioner. In the event that the previous team owner cannot be reached or that the Commissioner decides not to reimburse the previous owner, the money will be deposited in to a discretionary fund for the league's use.
 
 10. Should a team become vacated and a new owner is not presented and approved before the end of the fantasy season, the Commissioner will retain management and maintenance responsibilities into the off-season until a new owner can be brought in to the league. Procedures and rules for off-season new member transfers are outlined in the following section. Any winnings granted to a team without an owner will be transferred to a
 discretionary fund for the league.
@@ -174,7 +174,7 @@ Defense will be considered a scoring player)
 
 2. An owner may move any injured player from his or her starting lineup or bench into the IR slot in order to create more available space while still maintaining ownership of the injured player.
 
-3. IR-eligible players can only be moved to the IR slot from an owner’s active roster or bench. Available players cannot be added directly to an owner’s IR slot from free agency, as the owner must first add the player to an open bench slot.
+3. IR-eligible players can only be moved to the IR slot from an owner's active roster or bench. Available players cannot be added directly to an owner's IR slot from free agency, as the owner must first add the player to an open bench slot.
 
 4. A player will be eligible for the IR slot based on the NFL's official disabled list of active and inactive players.
 
@@ -200,7 +200,7 @@ Defense will be considered a scoring player)
 
 ### Other Rules and Regulations
 
-1. All points scored by active players are based on fractional scoring. As an example, if a player receives 1 point for every 10 yards of rushing, each yard gained is worth 0.1 points and will be represented in the team’s overall score. This applies to all player types.
+1. All points scored by active players are based on fractional scoring. As an example, if a player receives 1 point for every 10 yards of rushing, each yard gained is worth 0.1 points and will be represented in the team's overall score. This applies to all player types.
 
 2. Points earned for passing, rushing, and receiving are not restricted to a particular player position, excluding DEF. However, all point values for any scoring action will remain unaffected by player position.
 
