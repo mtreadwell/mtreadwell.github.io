@@ -245,7 +245,7 @@ arrangements for the management of his or her draft.
 
 1. Keepers selected by a team owner will replace the pick of corresponding draft round value for that team as determined by the statutes in [Article 7 (Keepers)](#keepers).
 
-2. Every owner must possess a full starting lineup by the conclusion of the draft. At a minimum, each owner must either draft and/or own through Keeper selection 1 QB, 2 RB’s, 2 WR’s, 1 TE, 1 DEF, 1 K, and 1 additional RB, WR, or TE by the conclusion of the draft.
+2. Every owner must possess a full starting lineup by the conclusion of the draft. At a minimum, each owner must either draft and/or own through Keeper selection 1 QB, 2 RBs, 2 WRs, 1 TE, 1 DEF, 1 K, and 1 additional RB, WR, or TE by the conclusion of the draft.
 
 ## Pre-Draft and Post-Draft Periods
 
@@ -294,7 +294,7 @@ draft.
 
 ### Definition of Waivers {#definition-of-waivers}
 
-1. Waivers is the time period by which a player must wait before becoming a free agent. Any player placed on waivers cannot be added by a team owner until that player’s waiver period is concluded and he becomes a free agent.
+1. Waivers is the time period by which a player must wait before becoming a free agent. Any player placed on waivers cannot be added by a team owner until that player's waiver period is concluded and he becomes a free agent.
 
 2. All players not drafted by any team in the league following the draft will be immediately placed on waivers.
     a. No player will be considered a free agent until the conclusion of the Post-Draft Period.
@@ -305,14 +305,14 @@ draft.
 
 ### Process and Regulations
 
-1. Excluding the first week of the fantasy football season all waiver wire claims for players from the prior week’s games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
-    a. Because of the one-day waiver period for all dropped players, any and all players dropped from a team by an owner the day of said player’s individual NFL game will remain on waivers until the following week’s initial waiver period has concluded.
+1. Excluding the first week of the fantasy football season all waiver wire claims for players from the prior week's games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
+    a. Because of the one-day waiver period for all dropped players, any and all players dropped from a team by an owner the day of said player's individual NFL game will remain on waivers until the following week's initial waiver period has concluded.
 
 2. Beginning in Week 1 of the fantasy football season, any owner may place a claim on any player on the waiver wire.
 
 3. Acquisition requests by owners for players on waivers will processed based on their respective waiver wire priorities each week.
     a. If a player on waivers has claims from more than one team owner, the owner with the higher priority that week will acquire the player.
-    b. At the end of the initial waiver period each week, once a team owner’s waiver claim has been processed their priority is moved to the end of the order and the next priority claim is processed.
+    b. At the end of the initial waiver period each week, once a team owner's waiver claim has been processed their priority is moved to the end of the order and the next priority claim is processed.
 	  c. All players unclaimed after their respective waiver periods end will become free agents and can be added by any team owner on a first-come, first-served basis.
 	  
 ### Determining Waiver Wire Priority
