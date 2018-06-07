@@ -363,6 +363,7 @@ draft.
 1. After the conclusion of every fantasy football season each owner will choose at a minimum 1 and a maximum of 3 players from his or her team to keep for the following fantasy football season.
     a. Trading one or more of a team's Keepers during the offseason to another team owner for draft picks in the following league draft is permitted, however a team must at all times maintain ownership of at the least 1 Keeper until the conclusion of that draft.
     b. A team will never be allowed to roster more than 3 Keepers prior to that year's league draft.
+    c. A team will be allowed to remove a player from their keeper list after the keeper deadline and prior to the draft, however a team must at all times maintain ownership of at least 1 keeper until the conclusion of that draft.
 
 2. Once the draft has been completed any and all Keepers may be traded to another owner, dropped from their current team, or added to the team through normal trading procedures outlined in [Article 6](#player-trades).
     a. All players drafted are considered draft picks, not keepers, at the conclusion of the draft. The minimum and maximum limitations will not apply until the following Keeper Deadline when the team owner must choose Keepers for the next year.
