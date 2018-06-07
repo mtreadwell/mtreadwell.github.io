@@ -165,7 +165,7 @@ Defense will be considered a scoring player)
 
 3. All teams will be provided one additional slot that is flexible to one of the following three positions: Running Back; Wide Receiver; and Tight End.
 
-4. All teams will be provided a maximum of 6 bench slots that may filled using any combination of available players from any category.
+4. All teams will be provided a maximum of 7 bench slots that may filled using any combination of available players from any category.
     a. It is worth noting that certain host sites employ a maximum number of player position types that a team may possess.
     
 ### Injured Reserve Slot
@@ -214,7 +214,7 @@ Defense will be considered a scoring player)
 
 ### Draft Style
 
-1. The draft follows a standard snake format and consists of 15 rounds.
+1. The draft follows a standard snake format and consists of 16 rounds.
 
 ### Draft Pick Selection Time {#draft-pick-selection-time}
 
