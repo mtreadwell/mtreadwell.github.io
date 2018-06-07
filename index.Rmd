@@ -401,7 +401,7 @@ draft.
 2. The draft value of that player is determined by several factors:
     + If the proposed Keeper has been owned by the team for the entirety of the season, the draft value of that player will be one round higher than that of the previous year. 
     + If the proposed Keeper was acquired through a trade of any kind with another owner during the season and satisfies the Active Player Rule, the draft value of that player will be one round higher than that of the previous year, excepting those players under the Revalued Player Rule discussed in [7.2.2](#the-revalued-player-rule) below.
-    + If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 13th Round pick.
+    + If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 10th Round pick.
 
 3. If a team owner decides to keep 2 or more players with the same draft value for that year's upcoming draft, the owner will designate one of the players to retain that value. Each of the other players will then be valued 1 consecutive round higher.
 
@@ -411,19 +411,19 @@ draft.
 
 1. All players remaining undrafted at the conclusion of the draft will be considered free agents and are eligible to be added to any team by the rules and regulations outlined in [Article 5 (Waiver Wire Acquisitions)](#waiver-wire-acquisitions).
 
-2. Any player chosen from free agency following the draft will constitute a 13th Round draft value if kept for the next fantasy season as outlined in [7.2.1.2](#draft-value-for-keepers).
+2. Any player chosen from free agency following the draft will constitute a 10th Round draft value if kept for the next fantasy season as outlined in [7.2.1.2](#draft-value-for-keepers).
 
 3. Players that have been drafted to a team and then subsequently dropped from that team become free agents per the rules outlined in [5.0.1.4](#definition-of-waivers).
 
-4. The Revalued Player Rule states that any player drafted in rounds 2 through 15 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 13th Round as outlined in [7.2.1.2](#draft-value-for-keepers), so long as that player remains a free agent for more than 2 weeks.
+4. The Revalued Player Rule states that any player drafted in rounds 2 through 16 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 10th Round as outlined in [7.2.1.2](#draft-value-for-keepers), so long as that player remains a free agent for more than 2 weeks.
     a. If the player is added to a team by an owner through free agency and that player has not remained in free agency for more than 2 weeks, the player will retain the draft value he had before being cut from the former team.
         + Example 1: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.
-        + Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.
         + Example 3: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 14th Round draft value.
-        + Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.
     b. The only exception to the Revalued Player Rule is as follows: If an owner drops a drafted player from his or her team and then chooses to re-add that same player, and no other owner has added that player in the interim, that player must remain a free agent for more than 3 weeks, not 2 under the normal rule, to have his draft value reduced to 13th Round for the original owner.
         + Example 5: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 2 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.
-        + Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.
         
 # Regular Season
 
