@@ -333,7 +333,7 @@ draft.
 2. Any and all trades must be completed by the date of the Trade Deadline which will be set each year by the Commissioner.
 
 3. Following the Trade Deadline, no team owner will be allowed to make a trade with another owner until the next Keeper Deadline outlined in [7.1.2](#keeper-deadline).
-    a. After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by [2.2.2.3](#off-season-transfers). for the Commissioner as acting manager of a vacated team.
+    a. After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by [2.2.2.3](#off-season-transfers) for the Commissioner as acting manager of a vacated team.
 
 ### Procedures and Rules
 
@@ -345,14 +345,11 @@ draft.
 
 3. After a trade has been proposed, the owner being offered the trade will have a period of several days to accept or decline the trade offer.
 
-4. Once a trade proposal has been accepted, there will be an immediate 24 hour review period where the remaining owners in the league may vote by simple majority to veto the trade.
-    a. Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 6 out of 10 in favor of the veto.
-    b. If the trade has not been vetoed in the 24 hours provided for review, the trade will stand. This is subject only to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to [1.1.1.3](#league-action-and-veto-power).
+4. Once a trade proposal has been accepted, the remaining owners in the league may vote by a 2/3 majority to veto the trade.
+    a. Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 7 out of 10 in favor of the veto.
+    b. Any trade is subject to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to [1.1.1.3](#league-action-and-veto-power).
 
-5. In the event that a trade proposal is accepted and an immediate approval is need to bypass the 24 hour review period, one or both team owners may petition the remaining owners to vote to approve the trade.
-    a. The number of votes needed to approve a trade in this manner would be 5 out of 10 in favor of the trade. In the event of a vacated team, the vote needed would remain 5 out of 9, 4 out of 8, 4 out of 7, and so on.
-
-6. Trades between Keepers and draft picks are discussed in [4.2.2](#trading-of-keepers-for-draft-picks).
+5. Trades between Keepers and draft picks are discussed in [4.2.2](#trading-of-keepers-for-draft-picks).
 
 # Keepers {#keepers}
 
