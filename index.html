@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -110,6 +113,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="fluid-row" id="header">
@@ -122,93 +220,6 @@ $(document).ready(function () {
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#league-governance-and-authorities"><span class="toc-section-number">1</span> League Governance and Authorities</a><ul>
-<li><a href="#authority-of-the-commissioner"><span class="toc-section-number">1.1</span> Authority of the Commissioner</a><ul>
-<li><a href="#league-action-and-veto-power"><span class="toc-section-number">1.1.1</span> League Action and Veto Powers</a></li>
-<li><a href="#league-owner-dismissal-and-addition"><span class="toc-section-number">1.1.2</span> League Owner Dismissal and Addition</a></li>
-<li><a href="#league-violations-and-penalties"><span class="toc-section-number">1.1.3</span> League Violations and Penalties</a></li>
-<li><a href="#roster-adjustment"><span class="toc-section-number">1.1.4</span> Roster Adjustment</a></li>
-<li><a href="#applicability-and-retroaction"><span class="toc-section-number">1.1.5</span> Applicability and Retroaction</a></li>
-</ul></li>
-<li><a href="#authority-of-the-constitution"><span class="toc-section-number">1.2</span> Authority of the Constitution</a><ul>
-<li><a href="#enacting-and-application-of-rules-and-regulations"><span class="toc-section-number">1.2.1</span> Enacting and Application of Rules and Regulations</a></li>
-<li><a href="#amendments-to-the-constitution"><span class="toc-section-number">1.2.2</span> Amendments to the Constitution</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#league-membership-and-rules"><span class="toc-section-number">2</span> League Membership and Rules</a><ul>
-<li><a href="#teams-dues-and-fees"><span class="toc-section-number">2.1</span> Teams, Dues, and Fees</a><ul>
-<li><a href="#number-of-team-owners"><span class="toc-section-number">2.1.1</span> Number of Team Owners</a></li>
-<li><a href="#league-dues-and-assessed-fees"><span class="toc-section-number">2.1.2</span> League Dues and Assessed Fees</a></li>
-</ul></li>
-<li><a href="#exiting-owners-new-owners"><span class="toc-section-number">2.2</span> Exiting Owners and New Owners</a><ul>
-<li><a href="#mid-season-transfers"><span class="toc-section-number">2.2.1</span> Mid-Season Transfers</a></li>
-<li><a href="#off-season-transfers"><span class="toc-section-number">2.2.2</span> Off-Season Transfers</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#team-structure-and-scoring-rules"><span class="toc-section-number">3</span> Team Structure and Scoring Rules</a><ul>
-<li><a href="#roster-construction"><span class="toc-section-number">3.1</span> Roster Construction</a><ul>
-<li><a href="#player-position-slots"><span class="toc-section-number">3.1.1</span> Player Position Slots</a></li>
-<li><a href="#injured-reserve-slot"><span class="toc-section-number">3.1.2</span> Injured Reserve Slot</a></li>
-</ul></li>
-<li><a href="#scoring"><span class="toc-section-number">3.2</span> Scoring</a><ul>
-<li><a href="#scoring-breakdown"><span class="toc-section-number">3.2.1</span> Scoring Breakdown</a></li>
-<li><a href="#other-rules-and-regulations"><span class="toc-section-number">3.2.2</span> Other Rules and Regulations</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#the-draft"><span class="toc-section-number">4</span> The Draft</a><ul>
-<li><a href="#rules-and-procedures"><span class="toc-section-number">4.1</span> Rules and Procedures</a><ul>
-<li><a href="#draft-style"><span class="toc-section-number">4.1.1</span> Draft Style</a></li>
-<li><a href="#draft-pick-selection-time"><span class="toc-section-number">4.1.2</span> Draft Pick Selection Time</a></li>
-<li><a href="#absentlate-team-owners"><span class="toc-section-number">4.1.3</span> Absent/Late Team Owners</a></li>
-<li><a href="#location-date-and-time"><span class="toc-section-number">4.1.4</span> Location, Date, and Time</a></li>
-<li><a href="#other-rules-and-regulations-1"><span class="toc-section-number">4.1.5</span> Other Rules and Regulations</a></li>
-</ul></li>
-<li><a href="#pre-draft-and-post-draft-periods"><span class="toc-section-number">4.2</span> Pre-Draft and Post-Draft Periods</a><ul>
-<li><a href="#selection-of-draft-order"><span class="toc-section-number">4.2.1</span> Selection of Draft Order</a></li>
-<li><a href="#trading-of-keepers-for-draft-picks"><span class="toc-section-number">4.2.2</span> Trading of Keepers for Draft Picks</a></li>
-<li><a href="#post-draft-period"><span class="toc-section-number">4.2.3</span> Post-Draft Period</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#waiver-wire-acquisitions"><span class="toc-section-number">5</span> Waiver Wire Acquisitions</a><ul>
-<li><a href="#definition-of-waivers"><span class="toc-section-number">5.0.1</span> Definition of Waivers</a></li>
-<li><a href="#process-and-regulations"><span class="toc-section-number">5.0.2</span> Process and Regulations</a></li>
-<li><a href="#determining-waiver-wire-priority"><span class="toc-section-number">5.0.3</span> Determining Waiver Wire Priority</a></li>
-</ul></li>
-<li><a href="#player-trades"><span class="toc-section-number">6</span> Player Trades</a><ul>
-<li><a href="#trading-periods-and-deadlines"><span class="toc-section-number">6.0.1</span> Trading Periods and Deadlines</a></li>
-<li><a href="#procedures-and-rules"><span class="toc-section-number">6.0.2</span> Procedures and Rules</a></li>
-</ul></li>
-<li><a href="#keepers"><span class="toc-section-number">7</span> Keepers</a><ul>
-<li><a href="#general-rules-and-regulations"><span class="toc-section-number">7.1</span> General Rules and Regulations</a><ul>
-<li><a href="#definition-of-a-keeper"><span class="toc-section-number">7.1.1</span> Definition of a Keeper</a></li>
-<li><a href="#keeper-deadline"><span class="toc-section-number">7.1.2</span> Keeper Deadline</a></li>
-<li><a href="#trading-keepers"><span class="toc-section-number">7.1.3</span> Trading Keepers</a></li>
-<li><a href="#eligibility"><span class="toc-section-number">7.1.4</span> Eligibility</a></li>
-</ul></li>
-<li><a href="#draft-implications"><span class="toc-section-number">7.2</span> Draft Implications</a><ul>
-<li><a href="#draft-value-for-keepers"><span class="toc-section-number">7.2.1</span> Draft Value for Keepers</a></li>
-<li><a href="#the-revalued-player-rule"><span class="toc-section-number">7.2.2</span> The Revalued Player Rule</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#regular-season"><span class="toc-section-number">8</span> Regular Season</a><ul>
-<li><a href="#general"><span class="toc-section-number">8.0.1</span> General</a></li>
-<li><a href="#head-to-head-matchups"><span class="toc-section-number">8.0.2</span> Head-to-Head Matchups</a></li>
-<li><a href="#overall-rankings"><span class="toc-section-number">8.0.3</span> Overall Rankings</a></li>
-<li><a href="#maintaining-an-active-roster"><span class="toc-section-number">8.0.4</span> Maintaining an Active Roster</a></li>
-</ul></li>
-<li><a href="#playoffs-and-payouts"><span class="toc-section-number">9</span> Playoffs and Payouts</a><ul>
-<li><a href="#champions-bracket-schedule"><span class="toc-section-number">9.0.1</span> Champion’s Bracket Schedule</a></li>
-<li><a href="#losers-bracket-schedule"><span class="toc-section-number">9.0.2</span> Loser’s Bracket Schedule</a></li>
-<li><a href="#scoring-and-tie-breakers"><span class="toc-section-number">9.0.3</span> Scoring and Tie-Breakers</a></li>
-<li><a href="#payouts"><span class="toc-section-number">9.0.4</span> Payouts</a></li>
-</ul></li>
-<li><a href="#other-rules-and-regulations-2"><span class="toc-section-number">10</span> Other Rules and Regulations</a><ul>
-<li><a href="#player-lock-ins"><span class="toc-section-number">10.0.1</span> Player Lock-Ins</a></li>
-</ul></li>
-</ul>
-</div>
 
 <div id="league-governance-and-authorities" class="section level1">
 <h1><span class="header-section-number">1</span> League Governance and Authorities</h1>
@@ -369,7 +380,7 @@ $(document).ready(function () {
 <li><p>A complete starting lineup for any and all teams will consist of 9 scoring players (Team Defense will be considered a scoring player)</p></li>
 <li><p>All teams will consist of the following player positions (and number of available starting slots): Running Back (2); Quarterback (1); Wide Receiver (2); Tight End (1); Kicker (1); and Team Defense (1).</p></li>
 <li><p>All teams will be provided one additional slot that is flexible to one of the following three positions: Running Back; Wide Receiver; and Tight End.</p></li>
-<li>All teams will be provided a maximum of 6 bench slots that may filled using any combination of available players from any category.
+<li>All teams will be provided a maximum of 7 bench slots that may filled using any combination of available players from any category.
 <ol style="list-style-type: lower-alpha">
 <li>It is worth noting that certain host sites employ a maximum number of player position types that a team may possess.</li>
 </ol></li>
@@ -423,7 +434,7 @@ $(document).ready(function () {
 <div id="draft-style" class="section level3">
 <h3><span class="header-section-number">4.1.1</span> Draft Style</h3>
 <ol style="list-style-type: decimal">
-<li>The draft follows a standard snake format and consists of 15 rounds.</li>
+<li>The draft follows a standard snake format and consists of 16 rounds.</li>
 </ol>
 </div>
 <div id="draft-pick-selection-time" class="section level3">
@@ -553,7 +564,7 @@ $(document).ready(function () {
 <li><p>Any and all trades must be completed by the date of the Trade Deadline which will be set each year by the Commissioner.</p></li>
 <li>Following the Trade Deadline, no team owner will be allowed to make a trade with another owner until the next Keeper Deadline outlined in <a href="#keeper-deadline">7.1.2</a>.
 <ol style="list-style-type: lower-alpha">
-<li>After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by <a href="#off-season-transfers">2.2.2.3</a>. for the Commissioner as acting manager of a vacated team.</li>
+<li>After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by <a href="#off-season-transfers">2.2.2.3</a> for the Commissioner as acting manager of a vacated team.</li>
 </ol></li>
 </ol>
 </div>
@@ -567,14 +578,10 @@ $(document).ready(function () {
 <li>For example: If a team owner is trading one player to another team and receiving two players in return, that owner must have room for that additional player on his or her roster while not violating the maximum number of players allowed on a team.</li>
 </ol></li>
 <li><p>After a trade has been proposed, the owner being offered the trade will have a period of several days to accept or decline the trade offer.</p></li>
-<li>Once a trade proposal has been accepted, there will be an immediate 24 hour review period where the remaining owners in the league may vote by simple majority to veto the trade.
+<li>Once a trade proposal has been accepted, the remaining owners in the league may vote by a 2/3 majority to veto the trade.
 <ol style="list-style-type: lower-alpha">
-<li>Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 6 out of 10 in favor of the veto.</li>
-<li>If the trade has not been vetoed in the 24 hours provided for review, the trade will stand. This is subject only to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to <a href="#league-action-and-veto-power">1.1.1.3</a>.</li>
-</ol></li>
-<li>In the event that a trade proposal is accepted and an immediate approval is need to bypass the 24 hour review period, one or both team owners may petition the remaining owners to vote to approve the trade.
-<ol style="list-style-type: lower-alpha">
-<li>The number of votes needed to approve a trade in this manner would be 5 out of 10 in favor of the trade. In the event of a vacated team, the vote needed would remain 5 out of 9, 4 out of 8, 4 out of 7, and so on.</li>
+<li>Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 7 out of 10 in favor of the veto.</li>
+<li>Any trade is subject to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to <a href="#league-action-and-veto-power">1.1.1.3</a>.</li>
 </ol></li>
 <li><p>Trades between Keepers and draft picks are discussed in <a href="#trading-of-keepers-for-draft-picks">4.2.2</a>.</p></li>
 </ol>
@@ -591,6 +598,7 @@ $(document).ready(function () {
 <ol style="list-style-type: lower-alpha">
 <li>Trading one or more of a team’s Keepers during the offseason to another team owner for draft picks in the following league draft is permitted, however a team must at all times maintain ownership of at the least 1 Keeper until the conclusion of that draft.</li>
 <li>A team will never be allowed to roster more than 3 Keepers prior to that year’s league draft.</li>
+<li>A team will be allowed to remove a player from their keeper list after the keeper deadline and prior to the draft, however a team must at all times maintain ownership of at least 1 keeper until the conclusion of that draft.</li>
 </ol></li>
 <li>Once the draft has been completed any and all Keepers may be traded to another owner, dropped from their current team, or added to the team through normal trading procedures outlined in <a href="#player-trades">Article 6</a>.
 <ol style="list-style-type: lower-alpha">
@@ -636,7 +644,7 @@ $(document).ready(function () {
 <ul>
 <li>If the proposed Keeper has been owned by the team for the entirety of the season, the draft value of that player will be one round higher than that of the previous year.</li>
 <li>If the proposed Keeper was acquired through a trade of any kind with another owner during the season and satisfies the Active Player Rule, the draft value of that player will be one round higher than that of the previous year, excepting those players under the Revalued Player Rule discussed in <a href="#the-revalued-player-rule">7.2.2</a> below.</li>
-<li>If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 13th Round pick.</li>
+<li>If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 10th Round pick.</li>
 </ul></li>
 <li><p>If a team owner decides to keep 2 or more players with the same draft value for that year’s upcoming draft, the owner will designate one of the players to retain that value. Each of the other players will then be valued 1 consecutive round higher.</p></li>
 <li><p>No team owner will be allowed to keep 2 or more players with 1st Round values for that year’s upcoming draft.</p></li>
@@ -646,21 +654,21 @@ $(document).ready(function () {
 <h3><span class="header-section-number">7.2.2</span> The Revalued Player Rule</h3>
 <ol style="list-style-type: decimal">
 <li><p>All players remaining undrafted at the conclusion of the draft will be considered free agents and are eligible to be added to any team by the rules and regulations outlined in <a href="#waiver-wire-acquisitions">Article 5 (Waiver Wire Acquisitions)</a>.</p></li>
-<li><p>Any player chosen from free agency following the draft will constitute a 13th Round draft value if kept for the next fantasy season as outlined in <a href="#draft-value-for-keepers">7.2.1.2</a>.</p></li>
+<li><p>Any player chosen from free agency following the draft will constitute a 10th Round draft value if kept for the next fantasy season as outlined in <a href="#draft-value-for-keepers">7.2.1.2</a>.</p></li>
 <li><p>Players that have been drafted to a team and then subsequently dropped from that team become free agents per the rules outlined in <a href="#definition-of-waivers">5.0.1.4</a>.</p></li>
-<li>The Revalued Player Rule states that any player drafted in rounds 2 through 15 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 13th Round as outlined in <a href="#draft-value-for-keepers">7.2.1.2</a>, so long as that player remains a free agent for more than 2 weeks.
+<li>The Revalued Player Rule states that any player drafted in rounds 2 through 16 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 10th Round as outlined in <a href="#draft-value-for-keepers">7.2.1.2</a>, so long as that player remains a free agent for more than 2 weeks.
 <ol style="list-style-type: lower-alpha">
 <li>If the player is added to a team by an owner through free agency and that player has not remained in free agency for more than 2 weeks, the player will retain the draft value he had before being cut from the former team.
 <ul>
 <li>Example 1: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.</li>
-<li>Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.</li>
+<li>Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.</li>
 <li>Example 3: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 14th Round draft value.</li>
-<li>Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.</li>
+<li>Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.</li>
 </ul></li>
 <li>The only exception to the Revalued Player Rule is as follows: If an owner drops a drafted player from his or her team and then chooses to re-add that same player, and no other owner has added that player in the interim, that player must remain a free agent for more than 3 weeks, not 2 under the normal rule, to have his draft value reduced to 13th Round for the original owner.
 <ul>
 <li>Example 5: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 2 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.</li>
-<li>Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.</li>
+<li>Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.</li>
 </ul></li>
 </ol></li>
 </ol>
@@ -772,6 +780,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 

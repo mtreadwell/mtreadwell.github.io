@@ -7,11 +7,9 @@ output:
     toc: true
     number_sections: true
     theme: journal
+    toc_float:
+      smooth_scroll: false
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # League Governance and Authorities
 
