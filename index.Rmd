@@ -7,11 +7,9 @@ output:
     toc: true
     number_sections: true
     theme: journal
+    toc_float:
+      smooth_scroll: false
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # League Governance and Authorities
 
@@ -165,7 +163,7 @@ Defense will be considered a scoring player)
 
 3. All teams will be provided one additional slot that is flexible to one of the following three positions: Running Back; Wide Receiver; and Tight End.
 
-4. All teams will be provided a maximum of 6 bench slots that may filled using any combination of available players from any category.
+4. All teams will be provided a maximum of 7 bench slots that may filled using any combination of available players from any category.
     a. It is worth noting that certain host sites employ a maximum number of player position types that a team may possess.
     
 ### Injured Reserve Slot
@@ -214,7 +212,7 @@ Defense will be considered a scoring player)
 
 ### Draft Style
 
-1. The draft follows a standard snake format and consists of 15 rounds.
+1. The draft follows a standard snake format and consists of 16 rounds.
 
 ### Draft Pick Selection Time {#draft-pick-selection-time}
 
@@ -333,7 +331,7 @@ draft.
 2. Any and all trades must be completed by the date of the Trade Deadline which will be set each year by the Commissioner.
 
 3. Following the Trade Deadline, no team owner will be allowed to make a trade with another owner until the next Keeper Deadline outlined in [7.1.2](#keeper-deadline).
-    a. After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by [2.2.2.3](#off-season-transfers). for the Commissioner as acting manager of a vacated team.
+    a. After the date of the Keeper Deadline owners will be allowed to trade Keepers for draft picks and vice versa, excluding the terms governed by [2.2.2.3](#off-season-transfers) for the Commissioner as acting manager of a vacated team.
 
 ### Procedures and Rules
 
@@ -345,14 +343,11 @@ draft.
 
 3. After a trade has been proposed, the owner being offered the trade will have a period of several days to accept or decline the trade offer.
 
-4. Once a trade proposal has been accepted, there will be an immediate 24 hour review period where the remaining owners in the league may vote by simple majority to veto the trade.
-    a. Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 6 out of 10 in favor of the veto.
-    b. If the trade has not been vetoed in the 24 hours provided for review, the trade will stand. This is subject only to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to [1.1.1.3](#league-action-and-veto-power).
+4. Once a trade proposal has been accepted, the remaining owners in the league may vote by a 2/3 majority to veto the trade.
+    a. Because neither owner involved in the trade will be allowed to vote, the standard vote count to issue a veto will be 7 out of 10 in favor of the veto.
+    b. Any trade is subject to intervention by the Commissioner should he decide further action is required. This action in turn will be subject to [1.1.1.3](#league-action-and-veto-power).
 
-5. In the event that a trade proposal is accepted and an immediate approval is need to bypass the 24 hour review period, one or both team owners may petition the remaining owners to vote to approve the trade.
-    a. The number of votes needed to approve a trade in this manner would be 5 out of 10 in favor of the trade. In the event of a vacated team, the vote needed would remain 5 out of 9, 4 out of 8, 4 out of 7, and so on.
-
-6. Trades between Keepers and draft picks are discussed in [4.2.2](#trading-of-keepers-for-draft-picks).
+5. Trades between Keepers and draft picks are discussed in [4.2.2](#trading-of-keepers-for-draft-picks).
 
 # Keepers {#keepers}
 
@@ -363,6 +358,7 @@ draft.
 1. After the conclusion of every fantasy football season each owner will choose at a minimum 1 and a maximum of 3 players from his or her team to keep for the following fantasy football season.
     a. Trading one or more of a team's Keepers during the offseason to another team owner for draft picks in the following league draft is permitted, however a team must at all times maintain ownership of at the least 1 Keeper until the conclusion of that draft.
     b. A team will never be allowed to roster more than 3 Keepers prior to that year's league draft.
+    c. A team will be allowed to remove a player from their keeper list after the keeper deadline and prior to the draft, however a team must at all times maintain ownership of at least 1 keeper until the conclusion of that draft.
 
 2. Once the draft has been completed any and all Keepers may be traded to another owner, dropped from their current team, or added to the team through normal trading procedures outlined in [Article 6](#player-trades).
     a. All players drafted are considered draft picks, not keepers, at the conclusion of the draft. The minimum and maximum limitations will not apply until the following Keeper Deadline when the team owner must choose Keepers for the next year.
@@ -400,7 +396,7 @@ draft.
 2. The draft value of that player is determined by several factors:
     + If the proposed Keeper has been owned by the team for the entirety of the season, the draft value of that player will be one round higher than that of the previous year. 
     + If the proposed Keeper was acquired through a trade of any kind with another owner during the season and satisfies the Active Player Rule, the draft value of that player will be one round higher than that of the previous year, excepting those players under the Revalued Player Rule discussed in [7.2.2](#the-revalued-player-rule) below.
-    + If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 13th Round pick.
+    + If the proposed Keeper was acquired through free agency and satisfies the Active Player Rule and does not conflict with the Revalued Player Rule, the draft value of that player will be a 10th Round pick.
 
 3. If a team owner decides to keep 2 or more players with the same draft value for that year's upcoming draft, the owner will designate one of the players to retain that value. Each of the other players will then be valued 1 consecutive round higher.
 
@@ -410,19 +406,19 @@ draft.
 
 1. All players remaining undrafted at the conclusion of the draft will be considered free agents and are eligible to be added to any team by the rules and regulations outlined in [Article 5 (Waiver Wire Acquisitions)](#waiver-wire-acquisitions).
 
-2. Any player chosen from free agency following the draft will constitute a 13th Round draft value if kept for the next fantasy season as outlined in [7.2.1.2](#draft-value-for-keepers).
+2. Any player chosen from free agency following the draft will constitute a 10th Round draft value if kept for the next fantasy season as outlined in [7.2.1.2](#draft-value-for-keepers).
 
 3. Players that have been drafted to a team and then subsequently dropped from that team become free agents per the rules outlined in [5.0.1.4](#definition-of-waivers).
 
-4. The Revalued Player Rule states that any player drafted in rounds 2 through 15 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 13th Round as outlined in [7.2.1.2](#draft-value-for-keepers), so long as that player remains a free agent for more than 2 weeks.
+4. The Revalued Player Rule states that any player drafted in rounds 2 through 16 who becomes a free agent during the fantasy football season will have their draft value reduced to the base level of 10th Round as outlined in [7.2.1.2](#draft-value-for-keepers), so long as that player remains a free agent for more than 2 weeks.
     a. If the player is added to a team by an owner through free agency and that player has not remained in free agency for more than 2 weeks, the player will retain the draft value he had before being cut from the former team.
         + Example 1: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.
-        + Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 2: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.
         + Example 3: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 1 week later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 14th Round draft value.
-        + Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 4: Player A was taken in the 15th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A is then added 3 weeks later by another team owner. Should the new owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.
     b. The only exception to the Revalued Player Rule is as follows: If an owner drops a drafted player from his or her team and then chooses to re-add that same player, and no other owner has added that player in the interim, that player must remain a free agent for more than 3 weeks, not 2 under the normal rule, to have his draft value reduced to 13th Round for the original owner.
         + Example 5: Player A was taken in the 3rd Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 2 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 2nd Round draft value.
-        + Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 13th Round draft value.
+        + Example 6: Player A was taken in the 5th Round of the draft. Player A was cut from that team 4 weeks into the fantasy season. Player A remains in free agency and is then added back to the original team 4 weeks later. Should the team owner decide to make Player A his or her Keeper for the next season, Player A will command a 10th Round draft value.
         
 # Regular Season
 
