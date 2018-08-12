@@ -11,6 +11,9 @@ output:
     theme: journal
     toc_float:
       smooth_scroll: false
+  # pdf_document:
+  #   toc: true
+  #   number_sections: true
 ---
 
 # League Governance and Authorities
@@ -305,7 +308,16 @@ draft.
 
 ### Acquisition Budget
 
-1. Excluding the first week of the fantasy football season all waiver wire claims for players from the prior week's games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
+1. Teams will have a budget of 200 spooky bucks ($200) with which they can bid to make player acquisitions.
+
+2. If a team would like to add a player, that team will secretly bid an amount they are willing to pay any time before waivers are processed per the waiver regulations in [5.0.3](#waiver-regulations). When waivers are processed, the manager with the highest bid will be awarded the player, and the bid will be subtracted from that team's budget.
+
+3. Spooky bucks are non-transferable and can be used only to acquire players on the waiver wire via blind auction.
+
+4. Team owners can place a bid on a player for $0.
+
+### Process and Regulations {#waiver-regulations}
+
 1. Excluding the first week of the fantasy football season all waiver wire bids for players from the prior week's games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
     a. Because of the one-day waiver period for all dropped players, any and all players dropped from a team by an owner the day of said player's individual NFL game will remain on waivers until the following week's initial waiver period has concluded.
 
