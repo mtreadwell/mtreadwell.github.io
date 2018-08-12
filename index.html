@@ -9,10 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Gregory Dupuis with contributions from Michael Treadwell" />
+<meta name="author" content="Gregory Dupuis" />
+<meta name="author" content="Michael Treadwell" />
 
 
-<title>Flayer Haters Constitution</title>
+<title>Flayer Haters Fantasy Football League Constitution</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,8 +25,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -34,10 +35,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -91,6 +94,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -214,9 +220,10 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Flayer Haters Constitution</h1>
-<h4 class="author"><em>Gregory Dupuis with contributions from Michael Treadwell</em></h4>
-<h4 class="date"><em>June 1, 2018</em></h4>
+<h1 class="title toc-ignore">Flayer Haters Fantasy Football League Constitution</h1>
+<h4 class="author"><em>Gregory Dupuis</em></h4>
+<h4 class="author"><em>Michael Treadwell</em></h4>
+<h4 class="date"><em>August, 12 2018</em></h4>
 
 </div>
 
@@ -524,24 +531,33 @@ div.tocify {
 <li><p>Any and all players dropped by a team owner will also be immediately placed on waivers until 3 a.m. the following morning.</p></li>
 </ol>
 </div>
-<div id="process-and-regulations" class="section level3">
-<h3><span class="header-section-number">5.0.2</span> Process and Regulations</h3>
+<div id="acquisition-budget" class="section level3">
+<h3><span class="header-section-number">5.0.2</span> Acquisition Budget</h3>
 <ol style="list-style-type: decimal">
-<li>Excluding the first week of the fantasy football season all waiver wire claims for players from the prior week’s games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
+<li><p>Teams will have a budget of 200 spooky bucks ($200) with which they can bid to make player acquisitions.</p></li>
+<li><p>If a team would like to add a player, that team will secretly bid an amount they are willing to pay any time before waivers are processed per the waiver regulations in <a href="#waiver-regulations">5.0.3</a>. When waivers are processed, the manager with the highest bid will be awarded the player, and the bid will be subtracted from that team’s budget.</p></li>
+<li><p>Spooky bucks are non-transferable and can be used only to acquire players on the waiver wire via blind auction.</p></li>
+<li><p>Team owners can place a bid on a player for $0.</p></li>
+</ol>
+</div>
+<div id="waiver-regulations" class="section level3">
+<h3><span class="header-section-number">5.0.3</span> Process and Regulations</h3>
+<ol style="list-style-type: decimal">
+<li>Excluding the first week of the fantasy football season all waiver wire bids for players from the prior week’s games will be processed at 3 a.m. Wednesday morning of that week. Any and all dropped players after this time each week will be placed on waivers for one day as stated in the previous Section.
 <ol style="list-style-type: lower-alpha">
 <li>Because of the one-day waiver period for all dropped players, any and all players dropped from a team by an owner the day of said player’s individual NFL game will remain on waivers until the following week’s initial waiver period has concluded.</li>
 </ol></li>
-<li><p>Beginning in Week 1 of the fantasy football season, any owner may place a claim on any player on the waiver wire.</p></li>
-<li>Acquisition requests by owners for players on waivers will processed based on their respective waiver wire priorities each week.
+<li><p>Beginning in Week 1 of the fantasy football season, any owner may place a bid on any player on the waiver wire.</p></li>
+<li>Acquisition requests by owners for players on waivers will processed based first on the bid amount and second on waiver priority.
 <ol style="list-style-type: lower-alpha">
-<li>If a player on waivers has claims from more than one team owner, the owner with the higher priority that week will acquire the player.</li>
-<li>At the end of the initial waiver period each week, once a team owner’s waiver claim has been processed their priority is moved to the end of the order and the next priority claim is processed.</li>
+<li>The team owner which places the highest bid on a player will acquire the player.</li>
+<li>If a player on waivers has an equal bid from more than one team owner, the owner with the higher priority that week will acquire the player.</li>
 <li>All players unclaimed after their respective waiver periods end will become free agents and can be added by any team owner on a first-come, first-served basis.</li>
 </ol></li>
 </ol>
 </div>
 <div id="determining-waiver-wire-priority" class="section level3">
-<h3><span class="header-section-number">5.0.3</span> Determining Waiver Wire Priority</h3>
+<h3><span class="header-section-number">5.0.4</span> Determining Waiver Wire Priority</h3>
 <ol style="list-style-type: decimal">
 <li>Week 1 Priority Order
 <ol style="list-style-type: lower-alpha">
@@ -701,7 +717,7 @@ div.tocify {
 <div id="overall-rankings" class="section level3">
 <h3><span class="header-section-number">8.0.3</span> Overall Rankings</h3>
 <ol style="list-style-type: decimal">
-<li><p>Overall rankings will be determined in the following order: the win/loss/tie records of each team; each team’s head-to-head record; total points scored; and total points against.</p></li>
+<li><p>Overall rankings will be determined in the following order: the win/loss/tie records of each team; total points scored; and total points against.</p></li>
 <li>Overall rankings will be used to determine playoff teams and their respective rankings at the end of the regular fantasy season. If all other tie-breakers have been exhausted and a tie still remains, the Commissioner will tally all bench points for, and then finally all bench points against to determine the final overall rankings.
 <ol style="list-style-type: lower-alpha">
 <li>If a tie still remains the Commissioner will assign a challenge or event outside of the scope of fantasy football to determine the final rankings. This decision will be final and not subject to the statutes in <a href="#league-action-and-veto-power">1.1.1.3</a>.</li>
