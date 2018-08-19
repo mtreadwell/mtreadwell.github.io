@@ -1,0 +1,43 @@
+---
+title: "Flayer Haters Fantasy Football League Data"
+date: "`r format(Sys.time(), '%B, %d %Y')`"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    theme: journal
+    toc_float:
+      smooth_scroll: false
+---
+
+# 2018 League Data
+
+## 2018 Draft Order
+
+```{r, include = FALSE, echo = FALSE}
+library(readxl, quietly = TRUE)
+```
+
+```{r, echo = FALSE}
+draft <- read_xlsx('./data/season_2018/2018_Draft_Order.xlsx')
+
+knitr::kable(draft)
+```
+
+## 2018 Keepers
+
+```{r, echo = FALSE}
+draft <- read_xlsx('./data/season_2018/2018_Keepers.xlsx')
+
+knitr::kable(draft)
+```
+
+# 2017 League Data
+
+## 2017 Draft
+
+```{r, echo = FALSE}
+draft <- read_xlsx('./data/season_2017/2017_Draft.xlsx')
+
+knitr::kable(draft)
+```
