@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Flayer Haters Fantasy Football League Data</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Flayer Haters Fantasy Football League Data</h1>
+<h4 class="date"><em>August, 19 2018</em></h4>
+
+</div>
+
+
+<div id="league-data" class="section level1">
+<h1><span class="header-section-number">1</span> 2018 League Data</h1>
+<div id="draft-order" class="section level2">
+<h2><span class="header-section-number">1.1</span> 2018 Draft Order</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Team</th>
+<th align="right">Draft Position</th>
+<th align="left">Speller Number</th>
+<th align="left">Speller Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Robbie</td>
+<td align="right">1</td>
+<td align="left">Speller 484</td>
+<td align="left">Abhijay Kodali</td>
+</tr>
+<tr class="even">
+<td align="left">Blake</td>
+<td align="right">2</td>
+<td align="left">Speller 192</td>
+<td align="left">Jashun Paluru</td>
+</tr>
+<tr class="odd">
+<td align="left">Brad</td>
+<td align="right">3</td>
+<td align="left">Speller 98</td>
+<td align="left">Erin Howard</td>
+</tr>
+<tr class="even">
+<td align="left">Scott</td>
+<td align="right">4</td>
+<td align="left">Speller 290</td>
+<td align="left">Shruthika Padhy</td>
+</tr>
+<tr class="odd">
+<td align="left">Treadwell</td>
+<td align="right">5</td>
+<td align="left">Speller 44</td>
+<td align="left">Lauren Guo</td>
+</tr>
+<tr class="even">
+<td align="left">Jeff</td>
+<td align="right">6</td>
+<td align="left">Speller 436</td>
+<td align="left">Pranav Nandakumar</td>
+</tr>
+<tr class="odd">
+<td align="left">Adams</td>
+<td align="right">7</td>
+<td align="left">Speller 70</td>
+<td align="left">Rishiki Gandhasri</td>
+</tr>
+<tr class="even">
+<td align="left">Jacob</td>
+<td align="right">8</td>
+<td align="left">Speller 24</td>
+<td align="left">Cameron Keith</td>
+</tr>
+<tr class="odd">
+<td align="left">Gregory</td>
+<td align="right">9</td>
+<td align="left">Speller 327</td>
+<td align="left">Nilla Rajan</td>
+</tr>
+<tr class="even">
+<td align="left">Olen</td>
+<td align="right">10</td>
+<td align="left">Speller 348</td>
+<td align="left">Christopher Serrao</td>
+</tr>
+<tr class="odd">
+<td align="left">Chip</td>
+<td align="right">11</td>
+<td align="left">Speller 316</td>
+<td align="left">Noah Brandt</td>
+</tr>
+<tr class="even">
+<td align="left">Shawn</td>
+<td align="right">12</td>
+<td align="left">Speller 37</td>
+<td align="left">Siddharth Doppalapudi</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="keepers" class="section level2">
+<h2><span class="header-section-number">1.2</span> 2018 Keepers</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Manager</th>
+<th align="right">Round</th>
+<th align="left">Kept Player</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Treadwell</td>
+<td align="right">3</td>
+<td align="left">Deandre Hopkins</td>
+</tr>
+<tr class="even">
+<td align="left">Treadwell</td>
+<td align="right">10</td>
+<td align="left">Evan Engram</td>
+</tr>
+<tr class="odd">
+<td align="left">Treadwell</td>
+<td align="right">12</td>
+<td align="left">Tyreek Hill</td>
+</tr>
+<tr class="even">
+<td align="left">Jeff</td>
+<td align="right">2</td>
+<td align="left">Ezekiel Elliot</td>
+</tr>
+<tr class="odd">
+<td align="left">Jeff</td>
+<td align="right">10</td>
+<td align="left">Will Fuller</td>
+</tr>
+<tr class="even">
+<td align="left">Jeff</td>
+<td align="right">11</td>
+<td align="left">Jay Ajayi</td>
+</tr>
+<tr class="odd">
+<td align="left">Adams</td>
+<td align="right">5</td>
+<td align="left">Zach Ertz</td>
+</tr>
+<tr class="even">
+<td align="left">Adams</td>
+<td align="right">6</td>
+<td align="left">Alvin Kamara</td>
+</tr>
+<tr class="odd">
+<td align="left">Adams</td>
+<td align="right">7</td>
+<td align="left">Odell Beckham Jr</td>
+</tr>
+<tr class="even">
+<td align="left">Robbie</td>
+<td align="right">11</td>
+<td align="left">Davante Adams</td>
+</tr>
+<tr class="odd">
+<td align="left">Robbie</td>
+<td align="right">10</td>
+<td align="left">Randall Cobb</td>
+</tr>
+<tr class="even">
+<td align="left">Robbie</td>
+<td align="right">9</td>
+<td align="left">Mohamed Sanu</td>
+</tr>
+<tr class="odd">
+<td align="left">Brad</td>
+<td align="right">2</td>
+<td align="left">Kareem Hunt</td>
+</tr>
+<tr class="even">
+<td align="left">Brad</td>
+<td align="right">10</td>
+<td align="left">Mike Evans</td>
+</tr>
+<tr class="odd">
+<td align="left">Brad</td>
+<td align="right">11</td>
+<td align="left">David Johnson</td>
+</tr>
+<tr class="even">
+<td align="left">Scott</td>
+<td align="right">7</td>
+<td align="left">Adam Thielen</td>
+</tr>
+<tr class="odd">
+<td align="left">Scott</td>
+<td align="right">9</td>
+<td align="left">Jerick McKinnon</td>
+</tr>
+<tr class="even">
+<td align="left">Scott</td>
+<td align="right">10</td>
+<td align="left">Aaron Rodgers</td>
+</tr>
+<tr class="odd">
+<td align="left">Shawn</td>
+<td align="right">8</td>
+<td align="left">Michael Thomas</td>
+</tr>
+<tr class="even">
+<td align="left">Shawn</td>
+<td align="right">3</td>
+<td align="left">Devonta Freeman</td>
+</tr>
+<tr class="odd">
+<td align="left">Shawn</td>
+<td align="right">10</td>
+<td align="left">Stefon Diggs</td>
+</tr>
+<tr class="even">
+<td align="left">Blake</td>
+<td align="right">5</td>
+<td align="left">Le’Veon Bell</td>
+</tr>
+<tr class="odd">
+<td align="left">Blake</td>
+<td align="right">4</td>
+<td align="left">Brandin Cooks</td>
+</tr>
+<tr class="even">
+<td align="left">Blake</td>
+<td align="right">10</td>
+<td align="left">Tarik Cohen</td>
+</tr>
+<tr class="odd">
+<td align="left">Gregory</td>
+<td align="right">1</td>
+<td align="left">Leonard Fournette</td>
+</tr>
+<tr class="even">
+<td align="left">Gregory</td>
+<td align="right">2</td>
+<td align="left">Keenan Allen</td>
+</tr>
+<tr class="odd">
+<td align="left">Gregory</td>
+<td align="right">11</td>
+<td align="left">Rex Burkhead</td>
+</tr>
+<tr class="even">
+<td align="left">Chip</td>
+<td align="right">9</td>
+<td align="left">Robert Woods</td>
+</tr>
+<tr class="odd">
+<td align="left">Chip</td>
+<td align="right">10</td>
+<td align="left">Deshaun Watson</td>
+</tr>
+<tr class="even">
+<td align="left">Jacob</td>
+<td align="right">3</td>
+<td align="left">Larry Fitzgerald</td>
+</tr>
+<tr class="odd">
+<td align="left">Jacob</td>
+<td align="right">5</td>
+<td align="left">Russell Wilson</td>
+</tr>
+<tr class="even">
+<td align="left">Jacob</td>
+<td align="right">10</td>
+<td align="left">Carson Wentz</td>
+</tr>
+<tr class="odd">
+<td align="left">Olen</td>
+<td align="right">5</td>
+<td align="left">Tom Brady</td>
+</tr>
+<tr class="even">
+<td align="left">Olen</td>
+<td align="right">3</td>
+<td align="left">Melvin Gordon</td>
+</tr>
+<tr class="odd">
+<td align="left">Olen</td>
+<td align="right">8</td>
+<td align="left">Jordan Howard</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="league-data-1" class="section level1">
+<h1><span class="header-section-number">2</span> 2017 League Data</h1>
+<div id="draft" class="section level2">
+<h2><span class="header-section-number">2.1</span> 2017 Draft</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Round</th>
+<th align="left">Olen</th>
+<th align="left">Shawn</th>
+<th align="left">Jeff</th>
+<th align="left">Robbie</th>
+<th align="left">Scott</th>
+<th align="left">Brad</th>
+<th align="left">Chipp</th>
+<th align="left">Mike A.</th>
+<th align="left">Mike T.</th>
+<th align="left">Blake</th>
+<th align="left">Gregory</th>
+<th align="left">Jacob</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="left">Antonio Brown</td>
+<td align="left">LeSean McCoy</td>
+<td align="left">Julio Jones</td>
+<td align="left">Demarco Murray</td>
+<td align="left">A.J. Green</td>
+<td align="left">Jordy Nelson</td>
+<td align="left">Amari Cooper</td>
+<td align="left">Todd Gurley</td>
+<td align="left">Dez Bryant</td>
+<td align="left">T.Y. Hilton</td>
+<td align="left">Marshawn Lynch</td>
+<td align="left">Rob Gronkowski</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="left">Jarvis Landry</td>
+<td align="left">Joe Mixon</td>
+<td align="left">Travis Kelce</td>
+<td align="left">Demaryius Thomas</td>
+<td align="left">Doug Baldwin</td>
+<td align="left">Aaron Rodgers</td>
+<td align="left">Danny Woodhead</td>
+<td align="left">Dalvin Cook</td>
+<td align="left">Isiah Crowell</td>
+<td align="left">Christian McCaffrey</td>
+<td align="left">Leonard Fournette</td>
+<td align="left">Lamar Miller</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="left">Greg Olsen</td>
+<td align="left">Jordan Reed</td>
+<td align="left">Ezekiel Elliot</td>
+<td align="left">Cam Newton</td>
+<td align="left">Ameer Abdullah</td>
+<td align="left">Kareem Hunt</td>
+<td align="left">Doug Martin</td>
+<td align="left">Drew Brees</td>
+<td align="left">Carlos Hyde</td>
+<td align="left">Golden Tate</td>
+<td align="left">Keenan Allen</td>
+<td align="left">Mark Ingram</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="left">Melvin Gordon</td>
+<td align="left">Devonta Freeman</td>
+<td align="left">Jamison Crowder</td>
+<td align="left">Frank Gore</td>
+<td align="left">Adrian Peterson</td>
+<td align="left">Derrick Henry</td>
+<td align="left">Martavis Bryant</td>
+<td align="left">Devante Parker</td>
+<td align="left">Deandre Hopkins</td>
+<td align="left">Allen Robinson</td>
+<td align="left">Sammy Watkins</td>
+<td align="left">Larry Fitzgerald</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="left">Brandon Marshall</td>
+<td align="left">Willie Snead</td>
+<td align="left">Jeremy Maclin</td>
+<td align="left">Jason Witten</td>
+<td align="left">Duke Johnson</td>
+<td align="left">Pierre Garcon</td>
+<td align="left">Corey Coleman</td>
+<td align="left">Emmanuel Sanders</td>
+<td align="left">Tevin Coleman</td>
+<td align="left">Brandin Cooks</td>
+<td align="left">Tyrell Williams</td>
+<td align="left">Russell Wilson</td>
+</tr>
+<tr class="even">
+<td align="right">6</td>
+<td align="left">Tom Brady</td>
+<td align="left">Jordan Matthews</td>
+<td align="left">Randall Cobb</td>
+<td align="left">Dion Lewis</td>
+<td align="left">Paul Perkins</td>
+<td align="left">Kyle Rudolph</td>
+<td align="left">Donte Moncrief</td>
+<td align="left">Zach Ertz</td>
+<td align="left">Tyler Eifert</td>
+<td align="left">Le’Veon Bell</td>
+<td align="left">Theo Riddick</td>
+<td align="left">Michael Crabtree</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="left">Legarrette Blount</td>
+<td align="left">Terrance West</td>
+<td align="left">Jameis Winston</td>
+<td align="left">Bilal Powell</td>
+<td align="left">Corey Davis</td>
+<td align="left">Samaje Perine</td>
+<td align="left">Jeremy Hill</td>
+<td align="left">Alvin Kamara</td>
+<td align="left">Eric Decker</td>
+<td align="left">Giovani Bernard</td>
+<td align="left">Eddie Lacy</td>
+<td align="left">Matt Forte</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="left">Martellus Bennett</td>
+<td align="left">Philip Rivers</td>
+<td align="left">Ted Ginn</td>
+<td align="left">Laquon Treadwell</td>
+<td align="left">Adam Thielen</td>
+<td align="left">Andrew Luck</td>
+<td align="left">Coby Fleener</td>
+<td align="left">Odell Beckham</td>
+<td align="left">Marcus Mariota</td>
+<td align="left">C.J. Prosise</td>
+<td align="left">Kenny Britt</td>
+<td align="left">Cameron Meredith</td>
+</tr>
+<tr class="odd">
+<td align="right">9</td>
+<td align="left">Jordan Howard</td>
+<td align="left">Michael Thomas</td>
+<td align="left">Danny Amendola</td>
+<td align="left">Seattle Seahawks</td>
+<td align="left">Jamaal Williams</td>
+<td align="left">Alshon Jeffery</td>
+<td align="left">Kirk Cousins</td>
+<td align="left">Cooper Kupp</td>
+<td align="left">Marvin Jones</td>
+<td align="left">John Brown</td>
+<td align="left">Chris Hogan</td>
+<td align="left">Mike Wallace</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="left">Matt Bryant</td>
+<td align="left">Hunter Henry</td>
+<td align="left">Thomas Rawls</td>
+<td align="left">Justin Tucker</td>
+<td align="left">Robby Anderson</td>
+<td align="left">Marlon Mack</td>
+<td align="left">Jonathan Williams</td>
+<td align="left">Josh Doctson</td>
+<td align="left">Darren Sproles</td>
+<td align="left">Jonathan Stewart</td>
+<td align="left">Latavius Murray</td>
+<td align="left">Stephen Gostkowski</td>
+</tr>
+<tr class="odd">
+<td align="right">11</td>
+<td align="left">Kenneth Dixon</td>
+<td align="left">Stefon Diggs</td>
+<td align="left">Mike Gillislee</td>
+<td align="left">Chad Williams</td>
+<td align="left">Derek Carr</td>
+<td align="left">Mike Evans</td>
+<td align="left">New England Pats</td>
+<td align="left">Darren McFadden</td>
+<td align="left">Deandre Washington</td>
+<td align="left">Eric Ebron</td>
+<td align="left">Matt Ryan</td>
+<td align="left">C.J. Anderson</td>
+</tr>
+<tr class="even">
+<td align="right">12</td>
+<td align="left">Kansas City Chiefs</td>
+<td align="left">Chris Thompson</td>
+<td align="left">Jay Ajayi</td>
+<td align="left">Davante Adams</td>
+<td align="left">Kelvin Benjamin</td>
+<td align="left">David Johnson</td>
+<td align="left">C.J. Fiedorowicz</td>
+<td align="left">Desean Jackson</td>
+<td align="left">Denver Broncos</td>
+<td align="left">Matthew Stafford</td>
+<td align="left">Rex Burkhead</td>
+<td align="left">James White</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="left">Sterlin Shepard</td>
+<td align="left">Jay Cutler</td>
+<td align="left">Rob Kelley</td>
+<td align="left">Rishard Matthews</td>
+<td align="left">Jimmy Graham</td>
+<td align="left">Houston Texans</td>
+<td align="left">Terrelle Pryor</td>
+<td align="left">Ty Montgomery</td>
+<td align="left">Tyreek Hill</td>
+<td align="left">Dak Prescott</td>
+<td align="left">Joe Williams</td>
+<td align="left">Allen Hurns</td>
+</tr>
+<tr class="even">
+<td align="right">14</td>
+<td align="left">Charles Sims</td>
+<td align="left">Minnesota Vikings</td>
+<td align="left">Arizon Crdinals</td>
+<td align="left">Colin Kaepernick</td>
+<td align="left">Kenny Golladay</td>
+<td align="left">Adam Vinatieri</td>
+<td align="left">Aldrick Robinson</td>
+<td align="left">Kevin White</td>
+<td align="left">Dan Bailey</td>
+<td align="left">Jamaal Charles</td>
+<td align="left">Charles Clay</td>
+<td align="left">Ben Roethlisberger</td>
+</tr>
+<tr class="odd">
+<td align="right">15</td>
+<td align="left">John Ross</td>
+<td align="left">Matt Prater</td>
+<td align="left">Tyrod Taylor</td>
+<td align="left">Ka’Deem Carey</td>
+<td align="left">Jacksonville Jaguars</td>
+<td align="left">Zay Jones</td>
+<td align="left">Mason Crosby</td>
+<td align="left">Cairo Santos</td>
+<td align="left">James Conner</td>
+<td align="left">Sebastian Janikowski</td>
+<td align="left">LA Rams</td>
+<td align="left">Carolina Panthers</td>
+</tr>
+<tr class="even">
+<td align="right">16</td>
+<td align="left">Antonio Gates</td>
+<td align="left">Jacquizz Rodgers</td>
+<td align="left">Brandon McManus</td>
+<td align="left">Aaron Jones</td>
+<td align="left">Dustin Hopkins</td>
+<td align="left">D.J. Howard</td>
+<td align="left">Mack Hollins</td>
+<td align="left">Philadelphia Eagles</td>
+<td align="left">D’onta Foreman</td>
+<td align="left">Blatimore Ravens</td>
+<td align="left">Wil Lutz</td>
+<td align="left">Jack Doyle</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
