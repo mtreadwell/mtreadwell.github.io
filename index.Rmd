@@ -64,22 +64,25 @@ output:
 
 1. Prior to a new fantasy season draft and following the conclusion of the previous fantasy season, a Constitutional Summit, hereinafter referred to as rules summit, shall be held for the discussion of amendments to the Constitution.
 
-2. The time and date for a rules summit will be set by the Commissioner and must take place at least 2 weeks before the date of the draft.
+2. To hold a rules summit, a quorum of members must be present, either in person or electronically. If a quorum is not met, the summit will be postponed until such time that more members can be in attendance.
 
-3. To hold a rules summit, a quorum of members must be present, either in person or electronically. If a quorum is not met, the summit will be postponed until such time that more members can be in attendance.
-
-4. Any and all team owners may present a proposed amendment at the rules summit. Each proposal will be discussed and voted on by the members in attendance. The present members will vote by simple majority to add the proposed amendment to a list of Constitutional changes. This list must then go before all team owners to be voted on.
+3. Any and all team owners may present a proposed amendment at the rules summit. Each proposal will be discussed and voted on by the members in attendance. The present members will vote by simple majority to add the proposed amendment to a list of Constitutional changes. This list must then go before all team owners to be voted on.
     a. An amendment to the Constitution will only be added with a 2/3 vote of the entire league and must be voted on prior to the day of the draft. Any and all Constitutional changes not voted on prior to the day of the draft will be rejected and must wait until the next rules summit for consideration by the league.
     
-5. In addition to any proposed amendments, all decisions made by the Commissioner during
+4. In addition to any proposed amendments, all decisions made by the Commissioner during
 the previous fantasy season may be included for discussion as potential rule changes and
 will be governed by the rules outlined in [1.2.2.4](#amendments-to-the-constitution).
 
-6. For the duration of the rules summit, the Commissioner will be considered an equal member of the league and will not hold special voting or vetoing privileges.
+5. For the duration of the rules summit, the Commissioner will be considered an equal member of the league and will not hold special voting or vetoing privileges.
 
-7. All Constitutional changes will go in to effect the day of the draft, prior to the first pick. Any and all changes will not be considered retroactive.
+6. All Constitutional changes will go in to effect the day of the draft, prior to the first pick. Any and all changes will not be considered retroactive.
     a. For approved changes to the Constitution regarding [the draft (Article 4)](#the-draft), [trades (Article 6)](#player-trades), and [keepers (Article 7)](#keepers), the effective date will still be the day of the draft, prior to the first pick.
     b. All actions taken before this date and time will be governed by the Constitution in its previous form.
+
+7. Each year a list of proposed amendments may be introduced. The purpose of a proposed amendment is to allow time for owners to consider potential constitutional changes before a final vote is cast.
+    a. Amendments may be proposed by a simple motion and require no immediate vote.
+    b. Proposed amendments will be collected and displayed in a location that facilitates easy access for all owners.
+    c. Proposed amendments remain designated as "proposed" until the following league year when they must be submitted for a vote. After this vote they will either be ratified into the constitution or voted down and removed from the list.
     
 # League Membership and Rules
 
@@ -91,7 +94,7 @@ will be governed by the rules outlined in [1.2.2.4](#amendments-to-the-constitut
 
 ### League Dues and Assessed Fees
 
-1. The league dues are set at $50 per team.
+1. The league dues are set at $75 per team.
 
 2. The league does not assess a fee for transactions of any kind, therefore a team owner will not be required to pay more than the $50 for league dues each year to continue owning their respective team.
 
@@ -276,7 +279,7 @@ equal number of draft picks from another team owner.
 5. Any trade involving draft picks for Keepers can be proposed prior to the first pick of the draft. No trades of any kind will be allowed once the draft has begun. A trade proposal issued within 24 hours of the start of the draft must be vetoed before the first pick of the
 draft.
 
-6. Regardless of the transaction, no player will be allowed to own more than 3 Keepers prior to the start of any fantasy football draft.
+6. Regardless of the transaction, no player will be allowed to own more than 4 Keepers prior to the start of any fantasy football draft.
 
 ### Post-Draft Period
 
@@ -367,10 +370,10 @@ draft.
 
 ### Definition of a Keeper
 
-1. After the conclusion of every fantasy football season each owner will choose at a minimum 1 and a maximum of 3 players from his or her team to keep for the following fantasy football season.
-    a. Trading one or more of a team's Keepers during the offseason to another team owner for draft picks in the following league draft is permitted, however a team must at all times maintain ownership of at the least 1 Keeper until the conclusion of that draft.
-    b. A team will never be allowed to roster more than 3 Keepers prior to that year's league draft.
-    c. A team will be allowed to remove a player from their keeper list after the keeper deadline and prior to the draft, however a team must at all times maintain ownership of at least 1 keeper until the conclusion of that draft.
+1. After the conclusion of every fantasy football season each owner will choose at a minimum 2 and a maximum of 4 players from his or her team to keep for the following fantasy football season.
+    a. Trading one or more of a team's Keepers during the offseason to another team owner for draft picks in the following league draft is permitted, however a team must at all times maintain ownership of at the least 2 Keepers until the conclusion of that draft.
+    b. A team will never be allowed to roster more than 4 Keepers prior to that year's league draft.
+    c. A team will be allowed to remove a player from their keeper list after the keeper deadline and prior to the draft, however a team must at all times maintain ownership of at least 2 keeper until the conclusion of that draft.
 
 2. Once the draft has been completed any and all Keepers may be traded to another owner, dropped from their current team, or added to the team through normal trading procedures outlined in [Article 6](#player-trades).
     a. All players drafted are considered draft picks, not keepers, at the conclusion of the draft. The minimum and maximum limitations will not apply until the following Keeper Deadline when the team owner must choose Keepers for the next year.
@@ -381,7 +384,7 @@ draft.
 
 2. An owner may submit their Keeper selections to the Commissioner either through the host website or in writing at any time prior to the end of the day on July 4 of each year.
 
-3. If an owner does not submit a list of a minimum of 1 and a maximum of 3 Keepers to the Commissioner by the Keeper Deadline, the Commissioner will penalize that team owner accordingly.
+3. If an owner does not submit a list of a minimum of 2 and a maximum of 4 Keepers to the Commissioner by the Keeper Deadline, the Commissioner will penalize that team owner accordingly.
 
 4. For rules and regulations concerning vacated teams at the point of the Keeper Deadline, please refer to [2.2.2.3](#off-season-transfers).
 
@@ -504,12 +507,12 @@ draft.
 
 ### Payouts
 
-1. The winner of the fantasy football season will receive $500.
+1. The winner of the fantasy football season will receive $750.
 
-2. The second place team will receive $100.
+2. The second place team will receive $150.
 
-3. The last place team will be subject to a penalty decided on by the league. The terms and conditions of this penalty will be discussed and voted on for approval by a 2/3 vote of the entire league prior to the Keeper Deadline of July 4 of each year.
-    a. Enforcement of this penalty will be at the discretion of the Commissioner and the members of the league, and the rules for enforcement will not be addressed in the Constitution.
+3. During the draft following each league year, the last place team will be given a trophy to reward their lackluster efforts, poor team management skills, and unbecoming character.
+    a. Acquisition of the trophy will be at the discretion of the Commissioner and the members of the league, and will not be addressed in the Constitution.
     
 # Other Rules and Regulations
 

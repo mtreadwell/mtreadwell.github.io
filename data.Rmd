@@ -4,7 +4,6 @@ date: "`r format(Sys.time(), '%B, %d %Y')`"
 output:
   html_document:
     toc: true
-    number_sections: true
     theme: journal
     toc_float:
       smooth_scroll: false
@@ -16,12 +15,23 @@ output:
 
 ```{r, include = FALSE, echo = FALSE}
 library(readxl, quietly = TRUE)
+library(kableExtra)
+
+style_it <- function(k) {
+  k %>%
+    kable_styling(
+      bootstrap_options = c("striped", "hover", "condensed"),
+      full_width = F,
+      position = "left"
+    )
+}
 ```
 
 ```{r, echo = FALSE}
 draft <- read_xlsx('./data/season_2018/2018_Draft_Order.xlsx')
 
-knitr::kable(draft)
+knitr::kable(draft) %>%
+  style_it()
 ```
 
 ## 2018 Keepers
@@ -29,7 +39,8 @@ knitr::kable(draft)
 ```{r, echo = FALSE}
 draft <- read_xlsx('./data/season_2018/2018_Keepers.xlsx')
 
-knitr::kable(draft)
+knitr::kable(draft) %>%
+  style_it()
 ```
 
 # 2017 League Data
@@ -39,5 +50,6 @@ knitr::kable(draft)
 ```{r, echo = FALSE}
 draft <- read_xlsx('./data/season_2017/2017_Draft.xlsx')
 
-knitr::kable(draft)
+knitr::kable(draft) %>%
+  style_it()
 ```
