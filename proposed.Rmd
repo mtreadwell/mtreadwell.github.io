@@ -1,0 +1,36 @@
+---
+title: "Flayer Haters Fantasy Football League Proposed Amendments"
+date: "`r format(Sys.time(), '%B, %d %Y')`"
+output:
+  html_document:
+    toc: true
+    theme: journal
+    toc_float:
+      smooth_scroll: false
+---
+
+# Scoring
+
+## Half-Point PPR
+_Proposed by Michael Treadwell_
+
+3.2.2.3 Other Rules and Regulations currently states:
+
+The league is a Point Per Reception (PPR) league. All player positions excluding DEF will score an additional point for every reception made.
+
+And is proposed to be changed to:
+
+The league is a Half-Point Per Reception (Half-PPR) league. All player positions excluding DEF will score an additional .5 points for every reception made.
+
+# Roster Construction
+
+## Superflex
+_Proposed by Scott Martin_
+
+3.1.1.3 Player Position Slots currently states:
+
+All teams will be provided one additional slot that is flexible to one of the following four positions: Running Back; Wide Receiver; and Tight End
+
+And is proposed to be changed to:
+
+All teams will be provided one additional slot that is flexible to one of the following four positions: Running Back; Wide Receiver; Tight End; and Quarterback.
